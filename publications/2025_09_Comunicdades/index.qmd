@@ -1,0 +1,14 @@
+---
+title: "Comunidades bioinformáticas sin fronteras"
+date: 2025-03-31
+author: [  "Evelia Lorena Coss Navarrete", "Erika Viridiana Cruz Bonilla", " Nelly Sélem Mojica"]
+publication: "Biotecnología en Movimiento, **40**, _1_ (2025)."
+categories: ["scientific communication", "education"]
+url_source: https://biotecmov.ibt.unam.mx/numeros/40/6.html
+url_pdf: 
+journ: "Biotecnología en Movimiento"
+issue: 40
+year: 2025
+image: "../cover/09_comunidades.png"
+pub_number: 9
+---

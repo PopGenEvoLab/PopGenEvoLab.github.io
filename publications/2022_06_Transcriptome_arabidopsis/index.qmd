@@ -1,0 +1,17 @@
+---
+title: "Transcriptome-guided annotation and functional classification of long non-coding RNAs in Arabidopsis thaliana"
+date: 2022-08-18
+author: ["José Antonio Corona-Gómez", "Evelia Lorena Coss Navarrete", "Irving Jair Garcia-Lopez", "Christopher Klapproth", "Jaime Alejandro Pérez-Patiño", "Selene L. Fernandez-Valverde"]
+publication: "Scientific Reports, **12**, _1-17_ (2022)."
+categories: ["plants", "lncRNAs"]
+url_source: https://www.nature.com/articles/s41598-022-18254-0
+url_preprint: https://www.biorxiv.org/content/10.1101/2022.04.18.488676v1
+url_pdf: https://drive.google.com/file/d/1zqQaGAPohnjOyDtUL86Cf4mZMIJsinib/view?usp=sharing
+url_github: https://github.com/RegRNALab/Transcriptome-guided_lncRNA_annotation
+journ: "Scientific Reports"
+issue: 12
+page: 1-17
+year: 2022
+image: "../cover/06_transcriptomic_arabidopsis.png"
+pub_number: 6
+---

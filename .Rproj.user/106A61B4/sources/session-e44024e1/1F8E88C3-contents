@@ -1,0 +1,12 @@
+---
+title: "Artículo 2"
+format: html
+---
+
+## Título del Artículo 2
+
+![Imagen del Artículo 2](img/Mammoth_DNnoback.png){.img-fluid .rounded}
+
+### Resumen breve
+Este es un resumen del artículo.  
+[Leer artículo completo](https://doi.org/xxxxxx){.btn .btn-primary target="_blank"}

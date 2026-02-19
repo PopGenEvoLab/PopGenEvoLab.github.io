@@ -1,0 +1,15 @@
+---
+title: "Los Neutrofilos, chile del que pica o chile del que no pica?"
+date: 2023-12-03
+author: ["Saúl Karr de León", "Evelia Lorena Coss Navarrete", "Marion E. G. Brunck"]
+publication: " El Infocito, Sociedad Mexicana de Inmunología, **3**, _18-21_ (2023)."
+categories: ["scientific communication", "immune cells"]
+url_source: https://sociedadmexicanadeinmunologia.org/revista-edicion-3/
+url_pdf: https://drive.google.com/file/d/1pGTVYn6gGKEQNHOIaNZuMQizYLJrnEc5/view?usp=sharing
+journ: "Scientific Reports"
+issue: 12
+page: 18-21
+year: 2023
+image: "../cover/07_neutrofilos.png"
+pub_number: 7
+---

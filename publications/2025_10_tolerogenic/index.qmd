@@ -1,0 +1,15 @@
+---
+title: "Gene expression profiling of dendritic cell tolerance dysfunction in women with Systemic lupus erythematosus"
+date: 2016-11-09
+author: ["Ana Laura Hernández-Ledesma†", "Evelia Lorena Coss Navarrete†", "Sofia Salazar-Magaña", "Diego Ramírez-Espinosa", "Lizbet Tinajero-Nieto", "Estefania Torres-Valdez", "Angélica Peña-Ayala", "Guillermo Félix-Rodriguez", "Gabriel Frontana-Vázquez", "Jair Santiago García Sotelo", "Morgane Thomas-Chollier", "Gosia Trynka", "Florencia Rosetti", "Selene Lizbeth Fernandez-Valverde", "María Gutiérrez-Arcelus", "Deshiré Alpízar-Rodríguez", "Alejandra Medina-Rivera"]
+categories: ["lupus", "immune cells"]
+url_source: 
+url_preprint: https://www.biorxiv.org/content/10.64898/2025.12.21.695630v1
+url_pdf: https://drive.google.com/file/d/12xy5aC-1Nr1W6AjY7pSGDW6YpSLzz2Sd/view?usp=sharing
+url_github: https://github.com/NeuroGenomicsMX/SLE_Transcriptomic_analysis_tolerogenic 
+url_zenodo: https://doi.org/10.5281/zenodo.17742206 
+journ: "bioRxiv"
+year: 2026
+image: "../cover/10_tolerogenic.png"
+pub_number: 10
+---

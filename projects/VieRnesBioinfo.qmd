@@ -1,0 +1,6 @@
+---
+title: "VieRnes de Bioinformática en el LIIGH"
+format: html
+---
+
+Parte 0 https://github.com/EveliaCoss/ViernesBioinfo2023 Parte 1 https://github.com/EveliaCoss/ViernesBioinfo2024 Parte 2 https://github.com/EveliaCoss/ViernesBioinfo2024_parte2 Parte 3 https://github.com/VieRnesBioinformatica/ViernesBioinfo2025_parte3 PArte4

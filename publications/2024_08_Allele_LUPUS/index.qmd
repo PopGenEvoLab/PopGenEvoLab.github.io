@@ -1,0 +1,15 @@
+---
+title: "AB1113 ALLELE SPECIFIC GENE EXPRESSION DURING TOLERANCE INDUCTION ON DENDRITIC CELLS FROM MEXICAN WOMEN WITH SYSTEMIC LUPUS ERYTHEMATOSUS"
+date: 2024-06-01
+author:  ["Ana Laura Hernández-Ledesma", "Sofia Salazar-Magaña", "Evelia Lorena Coss Navarrete", "Karen Nuñez-Reza","Lizbet Tinajero-Nieto",  "Angélica Peña-Ayala", "Estefania Torres-Valdez", "Guillermo Félix-Rodriguez", "Gabriel Frontana-Vázquez",  "Florencia Rosetti", "Selene Lizbeth Fernandez-Valverde", "María Gutiérrez-Arcelus", "Deshiré Alpízar-Rodríguez", "Alejandra Medina-Rivera"]
+publication: "Annals of the Rheumatic Diseases, **83**, _1887_ (2024)."
+categories: ["Scientific Abstracts", "lupus", "immune cells"]
+url_source: https://www.sciencedirect.com/science/article/abs/pii/S0003496724177837
+url_preprint: 
+url_pdf: https://drive.google.com/file/d/1HzkY1T-z-H6x_1e2_l6liuYAc82cH6oM/view?usp=sharing
+journ: "Annals of the Rheumatic Diseases"
+issue: 83
+page: 1887
+year: 2024
+pub_number: 8
+---

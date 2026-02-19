@@ -1,0 +1,16 @@
+---
+title: "Down-regulation of PvTRX1h increases nodule number and affects auxin, starch, and metabolic fingerprints in the common bean (Phaseolus vulgaris L.)"
+date: 2018-09-01
+author: ["Aarón Barraza", "Evelia Lorena Coss Navarrete", "Juan Carlos Vizuet-de-Rueda", "Keren Martínez-Aguilar", "José Luis Hernández-Chávez", "José Juan Ordaz-Ortiz", "Robert Winkler", "Axel Tiessen", "Raúl Alvarez-Venega"]
+publication: "Plant Science, **274**, _45-58_ (2018)."
+categories: ["plants", "priming"]
+url_source: https://doi.org/10.1016/j.plantsci.2018.05.006
+url_preprint: 
+url_pdf: https://drive.google.com/file/d/1wkrtp4La5jqtRsPszK1_5Kl-HxJlJAr1/view?usp=sharing
+journ: "Plant Science"
+issue: 274
+page: 45-58
+year: 2018
+image: "../cover/03_nodulos.png"
+pub_number: 3
+---

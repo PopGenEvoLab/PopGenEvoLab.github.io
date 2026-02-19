@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "4_projects.qmd": [
+      "projects/*.qmd"
+    ],
+    "publications/index.qmd": [
+      "*.qmd"
+    ]
+  }
+}
