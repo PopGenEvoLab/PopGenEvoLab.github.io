@@ -71,3 +71,27 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* Barra lateral izquiera en Tutorials */
+/* Bloque resaltado en morado para el item activo del sidebar */
+.sidebar .sidebar-item-container .active {
+  background-color: #dadaeb;   /* fondo morado muy claro */
+  border-left: 4px solid #3f007d; /* línea lateral morada intensa */
+  border-radius: 6px;          /* esquinas redondeadas */
+  padding: 6px 10px;           /* espacio interno */
+  font-weight: bold;           /* texto en negritas */
+  color: #4b0082;              /* texto morado oscuro */
+}
+
+/* Recuadros enlistados con resalte */
+/* Estilo base de las tarjetas del listing */
+.quarto-listing .quarto-grid-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+/* Efecto al pasar el cursor */
+.quarto-listing .quarto-grid-item:hover {
+  transform: scale(1.05); /* agranda ligeramente */
+  box-shadow: 0 8px 20px rgba(147,197,75,0.7); /* verde Sandstone con transparencia */
+  z-index: 2;
+}

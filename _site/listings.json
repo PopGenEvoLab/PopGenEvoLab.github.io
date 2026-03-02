@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/EveliaCoss/index.html"
+    ]
+  },
+  {
     "listing": "/4_projects.html",
     "items": [
       "/projects/RSGMexico.html",
@@ -12,6 +18,20 @@
     "listing": "/publications/index.html",
     "items": [
       "/publications/2025_10_tolerogenic/index.html",
+      "/publications/2025_09_Comunicdades/index.html",
+      "/publications/2024_08_Allele_LUPUS/index.html",
+      "/publications/2023_07_neutrofilos/index.html",
+      "/publications/2022_06_Transcriptome_arabidopsis/index.html",
+      "/publications/2022_05_Plants_and_Python/index.html",
+      "/publications/2020_04_Chapter/index.html",
+      "/publications/2017_03_Down-regulation_PvTRX1h/index.html",
+      "/publications/2017_02_Partical_characterization_milk/index.html",
+      "/publications/2017_01_Partical_characterization_enzymes/index.html"
+    ]
+  },
+  {
+    "listing": "/people/EveliaCoss/index.html",
+    "items": [
       "/publications/2025_09_Comunicdades/index.html",
       "/publications/2024_08_Allele_LUPUS/index.html",
       "/publications/2023_07_neutrofilos/index.html",

@@ -5,6 +5,13 @@
     ],
     "publications/index.qmd": [
       "*.qmd"
+    ],
+    "people/index.qmd": [
+      "B3049D40"
+    ],
+    "people/EveliaCoss/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/"
     ]
   }
 }
