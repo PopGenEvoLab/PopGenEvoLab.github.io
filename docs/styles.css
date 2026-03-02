@@ -1,0 +1,97 @@
+/* css styles */
+
+/* styles.css */
+
+/* Importar la fuente Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+/* Aplicar Ubuntu solo a los títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Aplicar Ubuntu al menú de navegación */ 
+.navbar, .navbar-brand, .nav-link { 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Evitar que el menú convierta a mayúsculas */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  text-transform: none;
+  font-family: 'Ubuntu', sans-serif; /* mantener la fuente */
+}
+
+
+/* Ajusta la altura de la barra de navegación al estándar Bootstrap */
+.navbar {
+  min-height: 56px;   /* altura típica */
+  padding-top: 0.5rem;  /* ≈8px */
+  padding-bottom: 0.5rem;
+}
+
+
+/* Ajusta el tamaño del texto dentro de la barra */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;   /* aumenta el tamaño de los enlaces */
+}
+
+/* Ajusta el tamaño del logo en la barra de navegación */
+.navbar-logo {
+  max-height: 100px;   /* aumenta la altura máxima del logo */
+  width: auto;         /* mantiene la proporción */
+}
+
+/* Forzar visibilidad de indicadores */
+.carousel-indicators [data-bs-target] {
+  background-color: #666 !important; /* gris oscuro */
+  width: 16px; 
+  height: 16px;
+  border-radius: 0; /* sin borde redondeado */
+}
+
+.carousel-indicators .active { 
+  background-color: #ff0000 !important; /* rojo para el activo */ 
+  
+}
+
+/* Personalizar flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5); /* fondo oscuro */
+  border-radius: 50%;
+}
+
+/* color en los titulos */
+.carousel-caption h5 {
+  background-color: rgba(0,0,0,0.5); /* negro con 50% transparencia */
+  color: #fff;                       /* texto blanco para contraste */
+  padding: 10px;
+  width: 100%;                       /* ocupa todo el ancho */
+  text-align: center;
+}
+
+/* Barra lateral izquiera en Tutorials */
+/* Bloque resaltado en morado para el item activo del sidebar */
+.sidebar .sidebar-item-container .active {
+  background-color: #dadaeb;   /* fondo morado muy claro */
+  border-left: 4px solid #3f007d; /* línea lateral morada intensa */
+  border-radius: 6px;          /* esquinas redondeadas */
+  padding: 6px 10px;           /* espacio interno */
+  font-weight: bold;           /* texto en negritas */
+  color: #4b0082;              /* texto morado oscuro */
+}
+
+/* Recuadros enlistados con resalte */
+/* Estilo base de las tarjetas del listing */
+.quarto-listing .quarto-grid-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+/* Efecto al pasar el cursor */
+.quarto-listing .quarto-grid-item:hover {
+  transform: scale(1.05); /* agranda ligeramente */
+  box-shadow: 0 8px 20px rgba(147,197,75,0.7); /* verde Sandstone con transparencia */
+  z-index: 2;
+}
