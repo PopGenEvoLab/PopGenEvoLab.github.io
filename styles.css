@@ -96,6 +96,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
 }
 
+/* ------ People -------*/
+
 /* Ajuste de imagenes */
 .listing-box {
   width: 250px;
@@ -104,3 +106,40 @@ h1, h2, h3, h4, h5, h6 {
   /* object-fit: cover;  */
 }
 
+/* Ajuste del diseño del titulo y espacio */
+
+.listing-box-title {
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Ajuste de la educacion, letra pequeña */
+.listing-box-education {
+  margin-bottom: 0;
+  color: #757883;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Espaciados de las columnas */
+.quarto-listing-cols-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.quarto-listing-cols-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.anchored {
+  padding-top: 8px;
+  padding-left: 10px;
+}
