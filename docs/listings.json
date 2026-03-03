@@ -15,108 +15,13 @@
     ]
   },
   {
-    "listing": "/people/PavelSalazar/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/SantiagoRosas/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/PabloUribe/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/NataliePineda/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/RigobertoPadilla/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/LeonardoCorrea/index.html",
-    "items": []
-  },
-  {
-    "listing": "/5_media.html",
+    "listing": "/5_news.html",
     "items": [
-      "/media/RSGMexico.html",
-      "/media/reprohack.html",
-      "/media/Rladies.html",
-      "/media/VieRnesBioinfo.html"
+      "/news/RSGMexico.html",
+      "/news/reprohack.html",
+      "/news/Rladies.html",
+      "/news/VieRnesBioinfo.html"
     ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025_10_tolerogenic/index.html",
-      "/publications/2025_09_Comunicdades/index.html",
-      "/publications/2024_08_Allele_LUPUS/index.html",
-      "/publications/2023_07_neutrofilos/index.html",
-      "/publications/2022_06_Transcriptome_arabidopsis/index.html",
-      "/publications/2022_05_Plants_and_Python/index.html",
-      "/publications/2020_04_Chapter/index.html",
-      "/publications/2017_03_Down-regulation_PvTRX1h/index.html",
-      "/publications/2017_02_Partical_characterization_milk/index.html",
-      "/publications/2017_01_Partical_characterization_enzymes/index.html"
-    ]
-  },
-  {
-    "listing": "/research/area2/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/area1/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/area1/index.html",
-      "/research/area2/index.html",
-      "/research/area3/index.html"
-    ]
-  },
-  {
-    "listing": "/research/area3/index.html",
-    "items": []
-  },
-  {
-    "listing": "/4_projects.html",
-    "items": [
-      "/projects/RSGMexico.html",
-      "/projects/reprohack.html",
-      "/projects/Rladies.html",
-      "/projects/VieRnesBioinfo.html"
-    ]
-  },
-  {
-    "listing": "/people/AlanGodinez/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/EduardoArrieta/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/FedericoSanchez/index.html",
-      "/people/EveliaCoss/index.html",
-      "/people/SantiagoRosas/index.html",
-      "/people/AlanGodinez/index.html",
-      "/people/RigobertoPadilla/index.html",
-      "/people/PavelSalazar/index.html",
-      "/people/EduardoArrieta/index.html",
-      "/people/NataliePineda/index.html",
-      "/people/PabloUribe/index.html",
-      "/people/LeonardoCorrea/index.html"
-    ]
-  },
-  {
-    "listing": "/people/FedericoSanchez/index.html",
-    "items": []
   },
   {
     "listing": "/people/EveliaCoss/index.html",
@@ -142,12 +47,95 @@
     ]
   },
   {
-    "listing": "/5_news.html",
+    "listing": "/people/FedericoSanchez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/index.html",
     "items": [
-      "/news/RSGMexico.html",
-      "/news/reprohack.html",
-      "/news/Rladies.html",
-      "/news/VieRnesBioinfo.html"
+      "/people/FedericoSanchez/index.html",
+      "/people/EveliaCoss/index.html",
+      "/people/SantiagoRosas/index.html",
+      "/people/AlanGodinez/index.html",
+      "/people/RigobertoPadilla/index.html",
+      "/people/PavelSalazar/index.html",
+      "/people/EduardoArrieta/index.html",
+      "/people/NataliePineda/index.html",
+      "/people/PabloUribe/index.html",
+      "/people/LeonardoCorrea/index.html"
+    ]
+  },
+  {
+    "listing": "/people/EduardoArrieta/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/AlanGodinez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/LeonardoCorrea/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/RigobertoPadilla/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/NataliePineda/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/PabloUribe/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/SantiagoRosas/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/PavelSalazar/index.html",
+    "items": []
+  },
+  {
+    "listing": "/5_videos.html",
+    "items": [
+      "/videos/2025_NuevoLinaje_en.html",
+      "/videos/RSGMexico.html",
+      "/videos/Rladies.html",
+      "/videos/VieRnesBioinfo.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/area1/index.html",
+      "/research/area2/index.html",
+      "/research/area3/index.html"
+    ]
+  },
+  {
+    "listing": "/4_projects.html",
+    "items": [
+      "/projects/RSGMexico.html",
+      "/projects/reprohack.html",
+      "/projects/Rladies.html",
+      "/projects/VieRnesBioinfo.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_10_tolerogenic/index.html",
+      "/publications/2025_09_Comunicdades/index.html",
+      "/publications/2024_08_Allele_LUPUS/index.html",
+      "/publications/2023_07_neutrofilos/index.html",
+      "/publications/2022_06_Transcriptome_arabidopsis/index.html",
+      "/publications/2022_05_Plants_and_Python/index.html",
+      "/publications/2020_04_Chapter/index.html",
+      "/publications/2017_03_Down-regulation_PvTRX1h/index.html",
+      "/publications/2017_02_Partical_characterization_milk/index.html",
+      "/publications/2017_01_Partical_characterization_enzymes/index.html"
     ]
   }
 ]

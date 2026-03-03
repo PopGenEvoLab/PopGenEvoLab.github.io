@@ -21,9 +21,6 @@
     "publications/index.qmd": [
       "*.qmd"
     ],
-    "5_media.qmd": [
-      "media/*.qmd"
-    ],
     "people/LeonardoCorrea/index.qmd": [
       "../../publications/**/*.qmd",
       "!../../publications/_template/",
@@ -89,6 +86,9 @@
     ],
     "5_news.qmd": [
       "news/*.qmd"
+    ],
+    "5_videos.qmd": [
+      "videos/*.qmd"
     ],
     "personal_publications/index.qmd": [
       "*.qmd"

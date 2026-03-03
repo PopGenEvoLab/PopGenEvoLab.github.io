@@ -1,215 +1,182 @@
 {
-  "index.qmd": {
-    "index.html": "7bdda5f1"
-  },
-  "about.qmd": {
-    "about.html": "fe315546"
-  },
-  "6_contact.qmd": {
-    "6_contact.html": "7ecceebe"
-  },
-  "2_research.qmd": {
-    "2_research.html": "2917b1ee"
-  },
-  "1_people.qmd": {
-    "1_people.html": "26b57bbf"
-  },
-  "4_projects.qmd": {
-    "4_projects.html": "f3aa2f04"
-  },
-  "5_news.qmd": {
-    "5_news.html": "476dc113"
-  },
-  "publications/2025_09_Comunicdades/index.qmd": {
-    "index.html": "f39e49a2"
-  },
-  "publications/2020_04_Chapter/index.qmd": {
-    "index.html": "830b4da5"
-  },
-  "publications/index.qmd": {
-    "index.html": "d28f6761"
-  },
-  "publications/2022_05_Plants_and_Python/index.qmd": {
-    "index.html": "e0cfd989"
-  },
-  "publications/2024_08_Allele_LUPUS/index.qmd": {
-    "index.html": "6409d390"
-  },
-  "publications/2023_07_neutrofilos/index.qmd": {
-    "index.html": "510e38d0"
-  },
-  "publications/2017_03_Down-regulation_PvTRX1h/index.qmd": {
-    "index.html": "3d792e8d"
-  },
-  "publications/2017_01_Partical_characterization_enzymes/index.qmd": {
-    "index.html": "1e56132a"
-  },
-  "publications/2025_10_tolerogenic/index.qmd": {
-    "index.html": "add2ace4"
-  },
-  "publications/2017_02_Partical_characterization_milk/index.qmd": {
-    "index.html": "b23c55a8"
-  },
-  "publications/2022_06_Transcriptome_arabidopsis/index.qmd": {
-    "index.html": "184c7443"
-  },
-  "projects/Rladies.qmd": {
-    "Rladies.html": "645fffd2"
-  },
-  "projects/reprohack.qmd": {
-    "reprohack.html": "7034b1f9"
-  },
-  "projects/VieRnesBioinfo.qmd": {
-    "VieRnesBioinfo.html": "e89a9bb0"
-  },
-  "projects/RSGMexico.qmd": {
-    "RSGMexico.html": "2be62135"
-  },
-  "carrusel/articulo2.qmd": {
-    "articulo2.html": "45c31cb8"
-  },
-  "carrusel/articulo1.qmd": {
-    "articulo1.html": "0926d4e0"
-  },
-  "carrusel/articulo3.qmd": {
-    "articulo3.html": "9a9f003f"
-  },
-  "people/EveliaCoss/index.qmd": {
-    "index.html": "ed70ce1e"
-  },
-  "people/index.qmd": {
-    "index.html": "b41fd97e"
-  },
-  "personal_ publications/index.qmd": {
-    "index.html": "fcf8a255"
-  },
-  "personal_ publications/EveliaCoss/2025_09_Comunicdades/index.qmd": {
-    "index.html": "a1fcbbb1"
-  },
-  "personal_ publications/EveliaCoss/2020_04_Chapter/index.qmd": {
-    "index.html": "c5ff193f"
-  },
-  "personal_ publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd": {
-    "index.html": "b81a2d32"
-  },
-  "personal_ publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd": {
-    "index.html": "e84eebcb"
-  },
-  "personal_ publications/EveliaCoss/2023_07_neutrofilos/index.qmd": {
-    "index.html": "21324400"
-  },
-  "personal_ publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd": {
-    "index.html": "7a354800"
-  },
-  "personal_ publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd": {
-    "index.html": "0ee1c048"
-  },
-  "personal_ publications/EveliaCoss/2025_10_tolerogenic/index.qmd": {
-    "index.html": "6b0b6168"
-  },
-  "personal_ publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd": {
-    "index.html": "e340638a"
-  },
-  "personal_ publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd": {
-    "index.html": "32548e6a"
-  },
-  "personal_publications/index.qmd": {
-    "index.html": "4e75801e"
-  },
-  "personal_publications/EveliaCoss/2025_09_Comunicdades/index.qmd": {
-    "index.html": "7bbaadaa"
-  },
-  "personal_publications/EveliaCoss/2020_04_Chapter/index.qmd": {
-    "index.html": "28371f2d"
-  },
-  "personal_publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd": {
-    "index.html": "9c587c93"
-  },
-  "personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd": {
-    "index.html": "a4c35a25"
-  },
-  "personal_publications/EveliaCoss/2023_07_neutrofilos/index.qmd": {
-    "index.html": "15908819"
-  },
-  "personal_publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd": {
-    "index.html": "43e995d5"
-  },
-  "personal_publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd": {
-    "index.html": "2711c171"
-  },
-  "personal_publications/EveliaCoss/2025_10_tolerogenic/index.qmd": {
-    "index.html": "0fc71b29"
-  },
-  "personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd": {
-    "index.html": "e07a7c47"
-  },
-  "personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd": {
-    "index.html": "c302e233"
-  },
-  "people/LeonardoCorrea/index.qmd": {
-    "index.html": "d301c4fa"
-  },
-  "people/AlanGodinez/index.qmd": {
-    "index.html": "a53dd2ea"
-  },
-  "people/RigobertoPadilla/index.qmd": {
-    "index.html": "18df3cea"
-  },
-  "people/EduardoArrieta/index.qmd": {
-    "index.html": "8fb8831d"
-  },
-  "people/NataliePineda/index.qmd": {
-    "index.html": "7a44e0bd"
-  },
-  "people/PabloUribe/index.qmd": {
-    "index.html": "8c794249"
-  },
-  "people/FedericoSanchez/index.qmd": {
-    "index.html": "3fe0d43d"
-  },
-  "people/SantiagoRosas/index.qmd": {
-    "index.html": "2edbaeaa"
-  },
-  "people/PavelSalazar/index.qmd": {
-    "index.html": "e20e477b"
-  },
   "research/area1/index.qmd": {
-    "index.html": "572ae3e3"
+    "index.html": "ffb4312d"
   },
   "research/index.qmd": {
-    "index.html": "d0f8c8fa"
+    "index.html": "d0222cd6"
   },
   "research/area2/index.qmd": {
-    "index.html": "16825a11"
+    "index.html": "a77ee4cc"
   },
   "research/area3/index.qmd": {
-    "index.html": "f58b259c"
+    "index.html": "bd5b1b7c"
   },
-  "5_media.qmd": {
-    "5_media.html": "23d3f295"
+  "6_contact.qmd": {
+    "6_contact.html": "8feed4f6"
+  },
+  "2_research.qmd": {
+    "2_research.html": "45f6e13a"
+  },
+  "1_people.qmd": {
+    "1_people.html": "dfb5c40d"
+  },
+  "4_projects.qmd": {
+    "4_projects.html": "ba0e6306"
+  },
+  "publications/2025_09_Comunicdades/index.qmd": {
+    "index.html": "084d41ae"
+  },
+  "publications/2020_04_Chapter/index.qmd": {
+    "index.html": "662476fc"
+  },
+  "publications/index.qmd": {
+    "index.html": "b6abd0ad"
+  },
+  "publications/2022_05_Plants_and_Python/index.qmd": {
+    "index.html": "1a864dd2"
+  },
+  "publications/2024_08_Allele_LUPUS/index.qmd": {
+    "index.html": "3a7ad57b"
+  },
+  "publications/2023_07_neutrofilos/index.qmd": {
+    "index.html": "7b3c913e"
+  },
+  "publications/2017_03_Down-regulation_PvTRX1h/index.qmd": {
+    "index.html": "1a5264bf"
+  },
+  "publications/2017_01_Partical_characterization_enzymes/index.qmd": {
+    "index.html": "3c32faea"
+  },
+  "publications/2025_10_tolerogenic/index.qmd": {
+    "index.html": "94808452"
+  },
+  "publications/2017_02_Partical_characterization_milk/index.qmd": {
+    "index.html": "56e59e26"
+  },
+  "publications/2022_06_Transcriptome_arabidopsis/index.qmd": {
+    "index.html": "2a51d95c"
+  },
+  "projects/Rladies.qmd": {
+    "Rladies.html": "fe201938"
+  },
+  "projects/reprohack.qmd": {
+    "reprohack.html": "a3212cc4"
+  },
+  "projects/VieRnesBioinfo.qmd": {
+    "VieRnesBioinfo.html": "abedd414"
+  },
+  "projects/RSGMexico.qmd": {
+    "RSGMexico.html": "945ca768"
+  },
+  "index.qmd": {
+    "index.html": "2eb5d600"
+  },
+  "videos/2025_NuevoLinaje_en.qmd": {
+    "2025_NuevoLinaje_en.html": "9261ebb1"
+  },
+  "videos/Rladies.qmd": {
+    "Rladies.html": "5fdeac4a"
+  },
+  "videos/VieRnesBioinfo.qmd": {
+    "VieRnesBioinfo.html": "8a309d4a"
+  },
+  "videos/RSGMexico.qmd": {
+    "RSGMexico.html": "15717504"
+  },
+  "videos/2025_NuevoLinaje_es.qmd": {
+    "2025_NuevoLinaje_es.html": "fe35c2db"
   },
   "news/Rladies.qmd": {
-    "Rladies.html": "62c4f497"
+    "Rladies.html": "17e7051b"
   },
   "news/reprohack.qmd": {
-    "reprohack.html": "696ea7af"
+    "reprohack.html": "3d164f16"
   },
   "news/VieRnesBioinfo.qmd": {
-    "VieRnesBioinfo.html": "1a468853"
+    "VieRnesBioinfo.html": "86fe22e8"
   },
   "news/RSGMexico.qmd": {
-    "RSGMexico.html": "a50dfbcf"
+    "RSGMexico.html": "febe5e9d"
   },
-  "media/Rladies.qmd": {
-    "Rladies.html": "74c70449"
+  "carrusel/articulo2.qmd": {
+    "articulo2.html": "c5f6079b"
   },
-  "media/reprohack.qmd": {
-    "reprohack.html": "327f2edd"
+  "carrusel/articulo3.qmd": {
+    "articulo3.html": "a0c9b35b"
   },
-  "media/VieRnesBioinfo.qmd": {
-    "VieRnesBioinfo.html": "3ec37239"
+  "carrusel/articulo1.qmd": {
+    "articulo1.html": "74518f9c"
   },
-  "media/RSGMexico.qmd": {
-    "RSGMexico.html": "f4d7799b"
+  "people/LeonardoCorrea/index.qmd": {
+    "index.html": "d376311d"
+  },
+  "people/AlanGodinez/index.qmd": {
+    "index.html": "c08d63ba"
+  },
+  "people/RigobertoPadilla/index.qmd": {
+    "index.html": "79a958a3"
+  },
+  "people/EduardoArrieta/index.qmd": {
+    "index.html": "728c2776"
+  },
+  "people/NataliePineda/index.qmd": {
+    "index.html": "48238e56"
+  },
+  "people/index.qmd": {
+    "index.html": "b357ae78"
+  },
+  "people/PabloUribe/index.qmd": {
+    "index.html": "b75b36d2"
+  },
+  "people/FedericoSanchez/index.qmd": {
+    "index.html": "73cff765"
+  },
+  "people/SantiagoRosas/index.qmd": {
+    "index.html": "38571d3c"
+  },
+  "people/EveliaCoss/index.qmd": {
+    "index.html": "173c8db0"
+  },
+  "people/PavelSalazar/index.qmd": {
+    "index.html": "9e4e105d"
+  },
+  "5_news.qmd": {
+    "5_news.html": "c6e0015f"
+  },
+  "5_videos.qmd": {
+    "5_videos.html": "811c06b3"
+  },
+  "personal_publications/index.qmd": {
+    "index.html": "2887f084"
+  },
+  "personal_publications/EveliaCoss/2025_09_Comunicdades/index.qmd": {
+    "index.html": "20a8da78"
+  },
+  "personal_publications/EveliaCoss/2020_04_Chapter/index.qmd": {
+    "index.html": "4a84810d"
+  },
+  "personal_publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd": {
+    "index.html": "5f2979b6"
+  },
+  "personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd": {
+    "index.html": "fd1a6e08"
+  },
+  "personal_publications/EveliaCoss/2023_07_neutrofilos/index.qmd": {
+    "index.html": "9e2f514d"
+  },
+  "personal_publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd": {
+    "index.html": "1f76c643"
+  },
+  "personal_publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd": {
+    "index.html": "cbf9b3d2"
+  },
+  "personal_publications/EveliaCoss/2025_10_tolerogenic/index.qmd": {
+    "index.html": "71e2615c"
+  },
+  "personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd": {
+    "index.html": "ac3ede4a"
+  },
+  "personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd": {
+    "index.html": "575c21fc"
   }
 }

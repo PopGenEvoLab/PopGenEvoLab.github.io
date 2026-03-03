@@ -24,7 +24,7 @@ website:
       - text: "Projects" 
         href: 4_projects.qmd
       - text: "Videos"
-        href: 5_media.qmd
+        href: 5_videos.qmd
       - text: "News"
         href: 5_news.qmd
     right:    
