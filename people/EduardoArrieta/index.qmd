@@ -1,5 +1,5 @@
 ---
-title: &TITLE Eduardo Alejandro Arrieta Donato
+title: &TITLE Eduardo Arrieta Donato
 last: Arrieta
 first: Eduardo
 people_group: understudent

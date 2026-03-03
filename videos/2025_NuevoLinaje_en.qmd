@@ -3,17 +3,18 @@ title: "Discovery of a New Mammoth Lineage in Mexico"
 format: html
 date: 2025-08-28
 image: cover/mammut_colombino.jpg
+categories: ["mammoth"]
 ---
 
-::: video-card
+:::: video-card
 UNAM specialists carried out the first genetic study of mammoths in Mexico, uncovering unique mitochondrial lineages and publishing their findings in [*Science*](https://www.science.org/doi/10.1126/science.adt9651).
 
-<div style="text-align:center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/H9VpCuroeXg?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+::: {style="text-align:center;"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H9VpCuroeXg?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-  </iframe>
-</div>
+</iframe>
 :::
+::::
 
 ### Summary
 

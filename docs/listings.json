@@ -26,15 +26,6 @@
   {
     "listing": "/people/EveliaCoss/index.html",
     "items": [
-      "/publications/2025_09_Comunicdades/index.html",
-      "/publications/2024_08_Allele_LUPUS/index.html",
-      "/publications/2023_07_neutrofilos/index.html",
-      "/publications/2022_06_Transcriptome_arabidopsis/index.html",
-      "/publications/2022_05_Plants_and_Python/index.html",
-      "/publications/2020_04_Chapter/index.html",
-      "/publications/2017_03_Down-regulation_PvTRX1h/index.html",
-      "/publications/2017_02_Partical_characterization_milk/index.html",
-      "/publications/2017_01_Partical_characterization_enzymes/index.html",
       "/personal_publications/EveliaCoss/2025_09_Comunicdades/index.html",
       "/personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.html",
       "/personal_publications/EveliaCoss/2023_07_neutrofilos/index.html",
@@ -48,7 +39,9 @@
   },
   {
     "listing": "/people/FedericoSanchez/index.html",
-    "items": []
+    "items": [
+      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+    ]
   },
   {
     "listing": "/people/index.html",
@@ -67,10 +60,47 @@
   },
   {
     "listing": "/people/EduardoArrieta/index.html",
-    "items": []
+    "items": [
+      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+    ]
   },
   {
     "listing": "/people/AlanGodinez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+    ]
+  },
+  {
+    "listing": "/4_projects.html",
+    "items": [
+      "/projects/RSGMexico.html",
+      "/projects/reprohack.html",
+      "/projects/Rladies.html",
+      "/projects/VieRnesBioinfo.html"
+    ]
+  },
+  {
+    "listing": "/research/area3/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/area1/index.html",
+      "/research/area2/index.html",
+      "/research/area3/index.html"
+    ]
+  },
+  {
+    "listing": "/research/area1/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/area2/index.html",
     "items": []
   },
   {
@@ -79,7 +109,9 @@
   },
   {
     "listing": "/people/RigobertoPadilla/index.html",
-    "items": []
+    "items": [
+      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+    ]
   },
   {
     "listing": "/people/NataliePineda/index.html",
@@ -104,38 +136,6 @@
       "/videos/RSGMexico.html",
       "/videos/Rladies.html",
       "/videos/VieRnesBioinfo.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/area1/index.html",
-      "/research/area2/index.html",
-      "/research/area3/index.html"
-    ]
-  },
-  {
-    "listing": "/4_projects.html",
-    "items": [
-      "/projects/RSGMexico.html",
-      "/projects/reprohack.html",
-      "/projects/Rladies.html",
-      "/projects/VieRnesBioinfo.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025_10_tolerogenic/index.html",
-      "/publications/2025_09_Comunicdades/index.html",
-      "/publications/2024_08_Allele_LUPUS/index.html",
-      "/publications/2023_07_neutrofilos/index.html",
-      "/publications/2022_06_Transcriptome_arabidopsis/index.html",
-      "/publications/2022_05_Plants_and_Python/index.html",
-      "/publications/2020_04_Chapter/index.html",
-      "/publications/2017_03_Down-regulation_PvTRX1h/index.html",
-      "/publications/2017_02_Partical_characterization_milk/index.html",
-      "/publications/2017_01_Partical_characterization_enzymes/index.html"
     ]
   }
 ]

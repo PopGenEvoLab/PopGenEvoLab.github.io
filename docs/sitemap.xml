@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/2025_NuevoLinaje_es.html</loc>
-    <lastmod>2026-03-03T19:38:09.322Z</lastmod>
-  </url>
-  <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.html</loc>
     <lastmod>2026-02-13T20:03:42.868Z</lastmod>
   </url>
@@ -46,7 +42,7 @@
   </url>
   <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/people/EduardoArrieta/index.html</loc>
-    <lastmod>2026-03-03T18:32:16.069Z</lastmod>
+    <lastmod>2026-03-03T19:58:39.628Z</lastmod>
   </url>
   <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/people/AlanGodinez/index.html</loc>
@@ -67,6 +63,82 @@
   <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/news/Rladies.html</loc>
     <lastmod>2026-02-14T03:49:44.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/VieRnesBioinfo.html</loc>
+    <lastmod>2026-01-29T15:31:01.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/2025_NuevoLinaje_en.html</loc>
+    <lastmod>2026-03-03T20:00:38.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/projects/RSGMexico.html</loc>
+    <lastmod>2026-02-14T03:50:04.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/projects/reprohack.html</loc>
+    <lastmod>2026-01-29T15:31:01.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/publications/index.html</loc>
+    <lastmod>2026-02-18T21:56:21.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/4_projects.html</loc>
+    <lastmod>2026-03-03T19:00:44.630Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/2_research.html</loc>
+    <lastmod>2026-02-18T22:10:32.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/research/area3/index.html</loc>
+    <lastmod>2026-03-03T18:57:37.183Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/research/index.html</loc>
+    <lastmod>2026-03-03T18:56:02.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/research/area1/index.html</loc>
+    <lastmod>2026-03-03T18:57:06.405Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/research/area2/index.html</loc>
+    <lastmod>2026-03-03T18:59:30.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/6_contact.html</loc>
+    <lastmod>2026-03-03T19:21:05.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/1_people.html</loc>
+    <lastmod>2026-02-18T22:28:22.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/publications/2025_01_Columbian_Mammoth_Science/index.html</loc>
+    <lastmod>2026-03-03T19:57:58.094Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/projects/Rladies.html</loc>
+    <lastmod>2026-02-14T03:49:44.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/projects/VieRnesBioinfo.html</loc>
+    <lastmod>2026-01-29T15:31:01.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/index.html</loc>
+    <lastmod>2026-02-19T23:08:45.369Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/Rladies.html</loc>
+    <lastmod>2026-02-14T03:49:44.834Z</lastmod>
+  </url>
+  <url>
+    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/RSGMexico.html</loc>
+    <lastmod>2026-02-14T03:50:04.875Z</lastmod>
   </url>
   <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/news/reprohack.html</loc>
@@ -127,21 +199,5 @@
   <url>
     <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.html</loc>
     <lastmod>2026-02-13T20:02:45.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/videos/2025_NuevoLinaje_en.html</loc>
-    <lastmod>2026-03-03T19:44:38.405Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/research/index.html</loc>
-    <lastmod>2026-03-03T18:56:02.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/4_projects.html</loc>
-    <lastmod>2026-03-03T19:00:44.630Z</lastmod>
-  </url>
-  <url>
-    <loc>https://liigh.unam.mx/newpage/edit_articles.php?n=3/publications/index.html</loc>
-    <lastmod>2026-02-18T21:56:21.976Z</lastmod>
   </url>
 </urlset>
