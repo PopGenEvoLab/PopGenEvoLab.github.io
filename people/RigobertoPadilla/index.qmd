@@ -1,0 +1,74 @@
+---
+title: &TITLE Rigoberto Padilla Bustos
+last: Padilla
+first: Rigoberto
+people_group: gradstudent
+email: "padillab.rigo@gmail.com"
+education:
+  - Ph.D. student Biomedical Sciences program | UNAM
+subtitle: PhD student
+description: ""
+bio: "Rigoberto Padilla Bustos obtained a bachelor’s degree in Biology from the University of Guadalajara (UdG) in 2023 and is currently a PhD student at the International Laboratory for Human Genome Research (LIIGH-UNAM), under the supervision of Dr. Federico Sánchez Quinto. His work focuses on the paleogenomics of megafauna remains, particularly he works with autosomic data from columbian mammoths (Mammuthus columbi), reconstructing their evolutionary history, genetic diversity and structure. He also works on the limitations and capabilities of molecular sex determination based on whole-genome sequencing in ancient remains."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:padillab.rigo@gmail.com
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

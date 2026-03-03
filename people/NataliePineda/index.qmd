@@ -1,0 +1,74 @@
+---
+title: &TITLE Natalie Berenice Pineda Morán
+last: Natalie
+first: Pineda
+people_group: understudent
+email: "natalie.appstor@hotmail.com"
+education:
+  - Undergraduate student in Genomic Sciences | UNAM
+subtitle: Undergraduate student
+description: ""
+bio: "I am an undergraduate student in the Genomic Sciences program at UNAM. I am currently a member of Dr. Federico Sanchez research group, where I am undertaking a project assessing the phylogenetic ties of a previously undescribed bat specimen. Some of my research interests include population genetics, paleogenomics and its relationship to disease research."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:natalie.appstor@hotmail.com
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

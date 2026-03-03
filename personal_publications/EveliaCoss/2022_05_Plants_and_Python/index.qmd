@@ -1,0 +1,18 @@
+---
+title: "Plants & Python: A series of lessons in coding, plant biology, computation, and bioinformatics"
+date: 2022-07-04
+author: [ "Robert VanBuren", "Alejandra Rougon-Cardoso", "Erik J. Amézquita", "Evelia Lorena Coss Navarrete", "Aarón Espinosa-Jaime", "Omar Andres Gonzalez-Iturbe", "Alicia C. Luckie-Duque", "Eddy Mendoza-Galindo", "Jeremy Pardo", "Guillermo Rodríguez-Guerrero", "Pablo Y. Rosiles-Loeza", "Marilyn Vásquez-Cruz", "Selene L. Fernandez-Valverde", "Tania Hernández-Hernández", "Sourabh Palande", "Daniel H. Chitwood" ]
+publication: "The Plant Cell, **7**, _1_ (2022)."
+categories: ["scientific communication", "education", "plants"]
+url_source: https://doi.org/10.1093/plcell/koac187
+url_preprint: 
+url_website: https://plantsandpython.github.io/PlantsAndPython/00_Opening_page.html
+url_github: https://github.com/PlantsAndPython/PlantsAndPython
+url_pdf: https://drive.google.com/file/d/1pzBibqT5Og9R6cTWANjaZcMmrVA-fciM/view?usp=sharing
+journ: "The Plant Cell"
+issue: 7
+page: e1
+year: 2022
+image: "../cover/05_plants_python_logo.jpg"
+pub_number: 5
+---

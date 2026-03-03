@@ -18,28 +18,28 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "People"
-        href: 1_people.qmd
-      - text: "Research Areas"
-        href: 2_research.qmd
-      - publications/index.qmd 
+      - href: people/index.qmd 
+      - href: research/index.qmd
+      - href: publications/index.qmd 
       - text: "Projects" 
         href: 4_projects.qmd
+      - text: "Videos"
+        href: 5_media.qmd
       - text: "News"
         href: 5_news.qmd
     right:    
       - text: "Contact"
-        href: 5_news.qmd    
+        href: 6_contact.qmd    
       - icon: github
-        href: https://github.com/EveliaCossNav/Website_EveCoss
+        href: https://github.com/PopGenEvoLab/PopGenEvoLab.github.io
 
   # Parte inferior de la pagina web
   page-footer: 
     border: false
-    left: "Published with [Quarto](https://quarto.org/docs/websites) v1.3.450, by Evelia Coss. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Published with [Quarto](https://quarto.org/docs/websites) v1.3.450, by [Evelia Coss](https://eveliacoss.github.io/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right: 
       - icon: github
-        href: https://github.com/EveliaCoss/
+        href: https://github.com/PopGenEvoLab
 
 format:
   html:

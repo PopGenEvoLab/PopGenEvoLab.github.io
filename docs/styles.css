@@ -95,3 +95,12 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 8px 20px rgba(147,197,75,0.7); /* verde Sandstone con transparencia */
   z-index: 2;
 }
+
+/* Ajuste de imagenes */
+.listing-box {
+  width: 250px;
+ /* height: 250px;*/
+  margin: auto; /* centra el recuadro */
+  /* object-fit: cover;  */
+}
+

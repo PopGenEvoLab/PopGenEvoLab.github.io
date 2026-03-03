@@ -10,5 +10,3 @@ listing:
   sort-ui: [title, date] # Agregar barra de orden
   filter-ui: [title, date] # Agregar barra de filtrado
 ---
-
-## **Recent videos**

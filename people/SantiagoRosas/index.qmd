@@ -1,0 +1,74 @@
+---
+title: &TITLE Santiago Olmo Rosas Plaza
+last: Rosas
+first: Santiago
+people_group: postdoc
+email: "santiagorosasplaza@gmail.com"
+education:
+  - PhD and an MSc in Biological Sciences | UNAM
+subtitle: Postdoctoral researcher
+description: ""
+bio: "Santiago Rosas is a postdoctoral researcher at the International Laboratory for Human Genome Research (LIIGH-UNAM) in the Human Paleogenomics and Evolutionary Biology Laboratory. He holds a PhD and an MSc in Biological Sciences from UNAM, with training in bioinformatics and genomic data analysis. His research focuses on paleogenomics and ancient metagenomics, including the analysis of sedimentary ancient DNA to reconstruct past environments, the study of ancient microbial communities associated with Pleistocene megafauna, and the paleogenomic research of Mesoamerican turkeys (Meleagris gallopavo) to explore domestication and evolutionary history."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:santiagorosasplaza@gmail.com
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

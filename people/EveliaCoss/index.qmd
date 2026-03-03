@@ -3,47 +3,78 @@ title: &TITLE Evelia Lorena Coss Navarrete
 last: Coss
 first: Evelia
 people_group: postdoc
-email: "anyanc@uw.edu"
+email: "ecoss@liigh.unam.mx"
 education:
-  - Ph.D. Chemistry | University of Washington 
-subtitle: Graduate Student
+  - Ph.D. Plant Biotechnology | Cinvestav, Langebio
+subtitle: Postdoctoral researcher
 description: ""
+bio: "I am Evelia Lorena Coss Navarrete, a postdoctoral researcher at the International Laboratory for Human Genome Research (LIIGH), UNAM. I specialize in bioinformatics, transcriptomic analysis, and reproducible scientific documentation. I hold a Bachelor’s degree in Biotechnology Engineering, and both my MSc. and Ph.D. in Plant Biotechnology from CINVESTAV. My doctoral research focused on the identification and characterization of long non-coding RNAs in Brassicaceae. Beyond research, I actively contribute to scientific communities as a member of R-Ladies Morelia, CDSB Mexico, RiaBio, and ISCB RSG-Mexico. I am also the lead organizer of VieRnes de Bioinformática at LIIGH, a collaborative initiative that fosters dialogue, training, and community-building in bioinformatics."
 image: avatar.jpg
+
+# Group publications
 listing:
-  id: pubs
-  template: ../../_ejs/publications-people.ejs 
-  contents: 
-    - "../../publications/**/*.qmd"
-    - "!../../publications/_template/"
-  sort: "pub_number desc"
-  # sort-ui: true
-  filter-ui: true
-  include:
-    author: *TITLE
-  fields: [publication, title, categories, image, date, author]
-page-layout: full
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
 about: 
   id: about
   template: trestles
-  image-shape: round
+  image-shape: round # imagen redonda
   image: avatar.jpg
   links:
     - icon: envelope
       text: Email
-      href: mailto:anyanc@uw.edu
+      href: mailto:ecoss@liigh.unam.mx
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=_mN7_1cAAAAJ&hl=es
+    - icon: github
+      text: GitHub 
+      href: https://github.com/EveliaCoss
 ---
 
 <hr>
 
-::: {#about}
+:::: {#about}
 ## Education
 
 {{< meta education >}}
 
-<br>
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
 :::
+
+<br>
+::::
 
 ## {{< meta first >}}'s Group Publications
 
-::: {#pubs}
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
 :::

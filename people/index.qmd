@@ -36,6 +36,15 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
+  - id: understudent
+    include: 
+      people_group: "understudent"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: post-bac
     include: 
       people_group: "post-bac"
@@ -71,6 +80,13 @@ page-layout: full
 ## Graduate Students
 
 ::: {#gradstudent}
+:::
+::::
+
+:::: sand-background
+## Undergraduate Students
+
+::: {#understudent}
 :::
 ::::
 

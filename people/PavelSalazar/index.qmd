@@ -1,0 +1,78 @@
+---
+title: &TITLE Pavel Salazar-Fernandez
+last: Salazar
+first: Pavel
+people_group: gradstudent
+email: "epsalazarf@gmail.com"
+education:
+  - Ph.D. student Biomedical Sciences program | UNAM
+subtitle: PhD student
+description: ""
+bio: "I am a PhD student in the Biomedical Sciences program, under the supervision of Dr. Federico Sánchez Quinto, studying how the evolutionary history of Latin American populations shapes present-day patterns of genetic disease risk. My work uses genomic data from both ancient and contemporary samples to examine how ancestry, demography, and natural selection interact in medically relevant ways.
+
+I have a background in biotechnology and integrative biology, and a specialization in bioinformatics. I work primarily with whole-genome data in the contexts of population genomics, paleogenomics, and genetic ancestry inference. My research integrates these perspectives into a single framework for understanding how historical admixture and past selective pressures continue to influence health in the Mexican population.
+
+My current project examines how alleles that once provided protection against ancient pathogens now contribute to susceptibility to autoimmune diseases. Through this case, I explore how evolutionary trade-offs become visible in modern clinical genetics."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:epsalazarf@gmail.com
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

@@ -1,0 +1,74 @@
+---
+title: &TITLE Pablo Esteban Uribe Herrera
+last: Uribe
+first: Pablo
+people_group: understudent
+email: "ruesaint.severin@gmail.com"
+education:
+  - Undergraduate Biology student | FES Iztacala
+subtitle: Undergraduate Student
+description: ""
+bio: "I am an undergraduate Biology student from FES Iztacala, UNAM. I am in the process of obtaining my Bsc degree as a member of the Paleogenomics and Evolutionary Biology group at LIIGH, under the supervision of Dr. Federico Sánchez Quinto. My Bsc thesis focuses on the phylogenetic relationships of the late Pleistocene horses at the Santa Lucia archeological site, at the new International Airport “Felipe Angeles”. I have training on bioinformatics and wet lab paleogenomics, as well as palentological techniques and histological processing. My research focuses on better understanding the systematics and evolutionary history of pleistocene extinct megafauna of México through the ancient DNA and the integration of morphological data into molecular phylogenies. My work focuses primarily on horses, but I am also collaborating in projects with other taxa."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ruesaint.severin@gmail.com
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

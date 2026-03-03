@@ -1,0 +1,74 @@
+---
+title: &TITLE Leonardo Yair Correa Mendoza
+last: Correa
+first: Leonardo
+people_group: alumni
+email: "lcorrea@lcg.unam.mx"
+education:
+  - BSc Genomic Sciences program | LCG, UNAM
+subtitle: ""
+description: ""
+bio: "I hold a Bsc degree from the Genomic Sciences program at LCG, UNAM. I have experience working with ancient DNA and bioinformatics pipelines, with a focus on paleogenomics, population genetics, and genetic ancestry inference. My research integrates population genetics, archaeological, and cultural context to explore the human past. I am currently undertaking a research stay as part of the Paleogenomics and Evolutionary Biology group, under the supervision of Dr. Federico Sánchez Quinto. My current project investigates the genetic affinities, population, and social structure of individuals excavated from two prehispanic archaeological sites in México. Through the analysis of ancient DNA, this work aims to reconstruct ancestry, kinship relationships, and mobility patterns from Mexican prehispanic societies, contributing to a deeper understanding of social dynamics and population history in Mesoamerica."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lcorrea@lcg.unam.mx
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

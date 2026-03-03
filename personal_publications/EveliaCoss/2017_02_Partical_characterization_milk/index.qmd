@@ -1,0 +1,16 @@
+---
+title: "CARACTERIZACIÓN PARCIAL DE LA ACTIVIDAD COAGULANTE Y CASEINOLÍTICA DE LAS PROTEASAS DEL FRUTO DE “AGUAMA” (Bromelia pinguin L.)"
+date: 2017-07-10
+author: ["Jesús Martín Moreno-Hernández", "Xitlalli Desideria Hernández-Mancillas", "Evelia Lorena Coss Navarrete", "María de Jesús Bañuelos-Pérez", "Jesús Aarón Salazar-Leyva", "Idalia Osuna-Ruiz", "Víctor Alfonso Rodríguez-Tirado", "Miguel Ángel Mazorra-Manzano"]
+publication: "BIOtecnica, **19**, _19-24_ (2017)."
+categories: ["plants","enzymes"]
+url_source: https://doi.org/10.18633/biotecnia.v19i2.380
+url_preprint: 
+url_pdf: https://drive.google.com/file/d/1tNP3V3eLeQrLi98iFJCOxT7LlnM1rp8i/view?usp=sharing
+journ: "BIOtecnica"
+issue: 19
+page: 19-24
+year: 2017
+image: "../cover/02_milk.png"
+pub_number: 2
+---

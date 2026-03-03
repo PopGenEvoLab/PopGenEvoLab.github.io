@@ -1,0 +1,75 @@
+---
+title: &TITLE Alan Vladimir Godínez Plascencia
+last: Godínez
+first: Alan
+people_group: gradstudent
+email: "vladimiralan@comunidad.unam.mx"
+education:
+  - Ph.D. Biomedical Sciences program | UNAM
+subtitle: Ph.D student
+description: ""
+bio: "Alan is a late-stage PhD student working at the International Laboratory for Human Genome Research (LIIGH-UNAM), under the supervision of Dr. Federico Sánchez Quinto.
+As a member of the Paleogenomics and Evolutionary Biology Laboratory, his research focuses on the evolutionary history of immune-related genes, particularly the HLA system. He is interested in investigating what ancient DNA can reveal about demographic events, long-term selection, and present-day human health. With a strong interest in leveraging reproducible bioinformatics workflows to tackle paleogenomic questions."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:vladimiralan@comunidad.unam.mx
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

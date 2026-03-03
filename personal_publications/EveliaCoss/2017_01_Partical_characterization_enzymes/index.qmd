@@ -1,0 +1,16 @@
+---
+title: "Partial Characterization of the Proteolytic Properties of an Enzymatic Extract From “Aguama” Bromelia pinguin L. Fruit Grown in Mexico"
+date: 2016-11-09
+author: ["Jesús Martín Moreno-Hernández", "Xitlalli Desideria Hernández-Mancillas", "Evelia Lorena Coss Navarrete", "Miguel Ángel Mazorra-Manzano", "Idalia Osuna-Ruiz", "Víctor Alfonso Rodríguez-Tirado", "Jesús Aarón Salazar-Leyva"]
+publication: "Applied Biochemistry and Biotechnology, **182**, _181-196_ (2017)."
+categories: ["plants","enzymes"]
+url_source: https://link.springer.com/article/10.1007/s12010-016-2319-x
+url_preprint: 
+url_pdf: https://drive.google.com/file/d/1npanDEH2Q4cd_lbe4pg9pRPHoCU5G-9J/view?usp=sharing
+journ: "Applied Biochemistry and Biotechnology"
+issue: 185
+page: 181-196
+year: 2017
+image: "../cover/01_PartialCharacterization.png"
+pub_number: 1
+---

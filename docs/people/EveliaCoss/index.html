@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    const listingTargetEl = window.document.querySelector('#listing-group-pubs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+    window['quarto-listings']['listing-group-pubs'] = new List('listing-group-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-personal-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-filters","listing-execute","listing-schedule_message","listing-colors","listing-editor","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-url_pdf","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-url_website","listing-url_github"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-personal-pubs'] = new List('listing-personal-pubs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -157,11 +185,11 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../1_people.html"> 
-<span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">Meet the Group</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../2_research.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research Areas</span></a>
   </li>  
   <li class="nav-item">
@@ -173,17 +201,21 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../5_media.html"> 
+<span class="menu-text">Videos</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../5_news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../5_news.html"> 
+    <a class="nav-link" href="../../6_contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/EveliaCossNav/Website_EveCoss"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/PopGenEvoLab/PopGenEvoLab.github.io"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -203,8 +235,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#s-group-publications" id="toc-s-group-publications" class="nav-link" data-scroll-target="#s-group-publications">Evelia’s Group Publications</a></li>
+  <li><a href="#s-group-publications" id="toc-s-group-publications" class="nav-link active" data-scroll-target="#s-group-publications">Evelia’s Group Publications</a></li>
+  <li><a href="#s-personal-publications" id="toc-s-personal-publications" class="nav-link" data-scroll-target="#s-personal-publications">Evelia’s Personal Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -222,22 +254,36 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Evelia Lorena Coss Navarrete</h1>
-<p class="subtitle lead">Graduate Student</p>
+<p class="subtitle lead">Postdoctoral researcher</p>
 </div>
 <div class="quarto-title-meta column-page-left">
   </div>
 </header>
     <div class="about-links">
-  <a href="mailto:anyanc@uw.edu" class="about-link" rel="" target="">
+  <a href="mailto:ecoss@liigh.unam.mx" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">Email</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=_mN7_1cAAAAJ&amp;hl=es" class="about-link" rel="" target="">
+    <i class="bi bi-mortarboard"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="https://github.com/EveliaCoss" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><div id="about">
 <section id="education" class="level2">
 <h2 data-anchor-id="education">Education</h2>
-<p>Ph.D.&nbsp;Chemistry | University of Washington</p>
+<p>Ph.D.&nbsp;Plant Biotechnology | Cinvestav, Langebio</p>
+</section>
+<section id="description" class="level2">
+<h2 data-anchor-id="description">Description</h2>
+<div style="text-align: justify;">
+<p>I am Evelia Lorena Coss Navarrete, a postdoctoral researcher at the International Laboratory for Human Genome Research (LIIGH), UNAM. I specialize in bioinformatics, transcriptomic analysis, and reproducible scientific documentation. I hold a Bachelor’s degree in Biotechnology Engineering, and both my MSc. and Ph.D.&nbsp;in Plant Biotechnology from CINVESTAV. My doctoral research focused on the identification and characterization of long non-coding RNAs in Brassicaceae. Beyond research, I actively contribute to scientific communities as a member of R-Ladies Morelia, CDSB Mexico, RiaBio, and ISCB RSG-Mexico. I am also the lead organizer of VieRnes de Bioinformática at LIIGH, a collaborative initiative that fosters dialogue, training, and community-building in bioinformatics.</p>
+</div>
 <p><br></p>
 </section>
 </div></div>
@@ -245,7 +291,7 @@ window.Quarto = {
 
 <section id="s-group-publications" class="level2">
 <h2 data-anchor-id="s-group-publications">Evelia’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-group-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
@@ -852,6 +898,616 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
+<section id="s-personal-publications" class="level2">
+<h2 data-anchor-id="s-personal-publications">Evelia’s Personal Publications</h2>
+<div id="listing-personal-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+    
+    
+    <div class="quarto-post image-right" data-index="0" data-categories="c2NpZW50aWZpYyUyMGNvbW11bmljYXRpb24lMkNlZHVjYXRpb24=" data-listing-date-sort="1743400800000" data-listing-file-modified-sort="1771013550714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2025_09_Comunicdades/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Comunidades bioinformáticas sin fronteras" src="../../personal_publications/EveliaCoss/cover/09_comunidades.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2025_09_Comunicdades/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Comunidades bioinformáticas sin fronteras</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2025_09_Comunicdades/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Evelia Lorena Coss Navarrete, Erika Viridiana Cruz Bonilla,  Nelly Sélem Mojica<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Biotecnología en Movimiento</i>, <b>40</b> (2025)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('scientific communication'); return false;">scientific communication</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">education</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://biotecmov.ibt.unam.mx/numeros/40/6.html">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="1" data-categories="U2NpZW50aWZpYyUyMEFic3RyYWN0cyUyQ2x1cHVzJTJDaW1tdW5lJTIwY2VsbHM=" data-listing-date-sort="1717221600000" data-listing-file-modified-sort="1771013399600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">AB1113 ALLELE SPECIFIC GENE EXPRESSION DURING TOLERANCE INDUCTION ON DENDRITIC CELLS FROM MEXICAN WOMEN WITH SYSTEMIC LUPUS ERYTHEMATOSUS</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2024_08_Allele_LUPUS/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Ana Laura Hernández-Ledesma, Sofia Salazar-Magaña, Evelia Lorena Coss Navarrete, Karen Nuñez-Reza, Lizbet Tinajero-Nieto, Angélica Peña-Ayala, Estefania Torres-Valdez, Guillermo Félix-Rodriguez, Gabriel Frontana-Vázquez, Florencia Rosetti, Selene Lizbeth Fernandez-Valverde, María Gutiérrez-Arcelus, Deshiré Alpízar-Rodríguez, Alejandra Medina-Rivera<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Annals of the Rheumatic Diseases</i>, <b>83</b>, 1887 (2024)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('Scientific Abstracts'); return false;">Scientific Abstracts</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('lupus'); return false;">lupus</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('immune cells'); return false;">immune cells</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003496724177837">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="2" data-categories="c2NpZW50aWZpYyUyMGNvbW11bmljYXRpb24lMkNpbW11bmUlMjBjZWxscw==" data-listing-date-sort="1701583200000" data-listing-file-modified-sort="1771013051266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2023_07_neutrofilos/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Los Neutrofilos, chile del que pica o chile del que no pica?" src="../../personal_publications/EveliaCoss/cover/07_neutrofilos.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2023_07_neutrofilos/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Los Neutrofilos, chile del que pica o chile del que no pica?</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2023_07_neutrofilos/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Saúl Karr de León, Evelia Lorena Coss Navarrete, Marion E. G. Brunck<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Scientific Reports</i>, <b>12</b>, 18-21 (2023)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('scientific communication'); return false;">scientific communication</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('immune cells'); return false;">immune cells</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://sociedadmexicanadeinmunologia.org/revista-edicion-3/">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="3" data-categories="cGxhbnRzJTJDbG5jUk5Bcw==" data-listing-date-sort="1660798800000" data-listing-file-modified-sort="1771013022868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Transcriptome-guided annotation and functional classification of long non-coding RNAs in Arabidopsis thaliana" src="../../personal_publications/EveliaCoss/cover/06_transcriptomic_arabidopsis.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Transcriptome-guided annotation and functional classification of long non-coding RNAs in Arabidopsis thaliana</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2022_06_Transcriptome_arabidopsis/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    José Antonio Corona-Gómez, Evelia Lorena Coss Navarrete, Irving Jair Garcia-Lopez, Christopher Klapproth, Jaime Alejandro Pérez-Patiño, Selene L. Fernandez-Valverde<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Scientific Reports</i>, <b>12</b>, 1-17 (2022)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('lncRNAs'); return false;">lncRNAs</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.nature.com/articles/s41598-022-18254-0">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+            <div class="listing-pub-url">
+
+                    <a href="https://www.biorxiv.org/content/10.1101/2022.04.18.488676v1">
+                    <p style="color:#8250E6;">preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="4" data-categories="c2NpZW50aWZpYyUyMGNvbW11bmljYXRpb24lMkNlZHVjYXRpb24lMkNwbGFudHM=" data-listing-date-sort="1656910800000" data-listing-file-modified-sort="1771013001674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Plants &amp; Python: A series of lessons in coding, plant biology, computation, and bioinformatics" src="../../personal_publications/EveliaCoss/cover/05_plants_python_logo.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Plants &amp; Python: A series of lessons in coding, plant biology, computation, and bioinformatics</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2022_05_Plants_and_Python/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Robert VanBuren, Alejandra Rougon-Cardoso, Erik J. Amézquita, Evelia Lorena Coss Navarrete, Aarón Espinosa-Jaime, Omar Andres Gonzalez-Iturbe, Alicia C. Luckie-Duque, Eddy Mendoza-Galindo, Jeremy Pardo, Guillermo Rodríguez-Guerrero, Pablo Y. Rosiles-Loeza, Marilyn Vásquez-Cruz, Selene L. Fernandez-Valverde, Tania Hernández-Hernández, Sourabh Palande, Daniel H. Chitwood<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>The Plant Cell</i>, <b>7</b>, e1 (2022)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('scientific communication'); return false;">scientific communication</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">education</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1093/plcell/koac187">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="5" data-categories="cGxhbnRzJTJDcHJpbWluZw==" data-listing-date-sort="1577858400000" data-listing-file-modified-sort="1771012938874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2020_04_Chapter/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Chapter 6 - Induction of plant resistance to biotic stress by priming with β-aminobutyric acid (BABA) and its effect on nitrogen-fixing nodule development" src="../../personal_publications/EveliaCoss/cover/04_baba.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2020_04_Chapter/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Chapter 6 - Induction of plant resistance to biotic stress by priming with β-aminobutyric acid (BABA) and its effect on nitrogen-fixing nodule development</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2020_04_Chapter/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Evelia Lorena Coss Navarrete, Armando Díaz-Valle, Raúl Alvarez-Venega<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Plant Science</i>, <b>1</b>, 101-114 (2020)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('priming'); return false;">priming</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780128178928000064">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="6" data-categories="cGxhbnRzJTJDcHJpbWluZw==" data-listing-date-sort="1535778000000" data-listing-file-modified-sort="1771012975309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Down-regulation of PvTRX1h increases nodule number and affects auxin, starch, and metabolic fingerprints in the common bean (Phaseolus vulgaris L.)" src="../../personal_publications/EveliaCoss/cover/03_nodulos.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Down-regulation of PvTRX1h increases nodule number and affects auxin, starch, and metabolic fingerprints in the common bean (Phaseolus vulgaris L.)</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2017_03_Down-regulation_PvTRX1h/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Aarón Barraza, Evelia Lorena Coss Navarrete, Juan Carlos Vizuet-de-Rueda, Keren Martínez-Aguilar, José Luis Hernández-Chávez, José Juan Ordaz-Ortiz, Robert Winkler, Axel Tiessen, Raúl Alvarez-Venega<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Plant Science</i>, <b>274</b>, 45-58 (2018)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('priming'); return false;">priming</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.1016/j.plantsci.2018.05.006">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="7" data-categories="cGxhbnRzJTJDZW56eW1lcw==" data-listing-date-sort="1499662800000" data-listing-file-modified-sort="1771012965580" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="CARACTERIZACIÓN PARCIAL DE LA ACTIVIDAD COAGULANTE Y CASEINOLÍTICA DE LAS PROTEASAS DEL FRUTO DE “AGUAMA” (Bromelia pinguin L.)" src="../../personal_publications/EveliaCoss/cover/02_milk.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">CARACTERIZACIÓN PARCIAL DE LA ACTIVIDAD COAGULANTE Y CASEINOLÍTICA DE LAS PROTEASAS DEL FRUTO DE “AGUAMA” (Bromelia pinguin L.)</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2017_02_Partical_characterization_milk/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Jesús Martín Moreno-Hernández, Xitlalli Desideria Hernández-Mancillas, Evelia Lorena Coss Navarrete, María de Jesús Bañuelos-Pérez, Jesús Aarón Salazar-Leyva, Idalia Osuna-Ruiz, Víctor Alfonso Rodríguez-Tirado, Miguel Ángel Mazorra-Manzano<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>BIOtecnica</i>, <b>19</b>, 19-24 (2017)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('enzymes'); return false;">enzymes</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://doi.org/10.18633/biotecnia.v19i2.380">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="8" data-categories="cGxhbnRzJTJDZW56eW1lcw==" data-listing-date-sort="1478671200000" data-listing-file-modified-sort="1771012955517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Partial Characterization of the Proteolytic Properties of an Enzymatic Extract From “Aguama” Bromelia pinguin L. Fruit Grown in Mexico" src="../../personal_publications/EveliaCoss/cover/01_PartialCharacterization.png" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/personal_publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Partial Characterization of the Proteolytic Properties of an Enzymatic Extract From “Aguama” Bromelia pinguin L. Fruit Grown in Mexico</div>
+            <!-- </a> -->
+            <!-- <a href="/personal_publications/EveliaCoss/2017_01_Partical_characterization_enzymes/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Jesús Martín Moreno-Hernández, Xitlalli Desideria Hernández-Mancillas, Evelia Lorena Coss Navarrete, Miguel Ángel Mazorra-Manzano, Idalia Osuna-Ruiz, Víctor Alfonso Rodríguez-Tirado, Jesús Aarón Salazar-Leyva<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Applied Biochemistry and Biotechnology</i>, <b>185</b>, 181-196 (2017)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">plants</div>
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('enzymes'); return false;">enzymes</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://link.springer.com/article/10.1007/s12010-016-2319-x">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
@@ -1256,7 +1912,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Published with <a href="https://quarto.org/docs/websites">Quarto</a> v1.3.450, by Evelia Coss. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+<p>Published with <a href="https://quarto.org/docs/websites">Quarto</a> v1.3.450, by <a href="https://eveliacoss.github.io/">Evelia Coss</a>. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -1264,7 +1920,7 @@ window.Quarto = {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/EveliaCoss/">
+    <a class="nav-link" href="https://github.com/PopGenEvoLab">
       <i class="bi bi-github" role="img">
 </i> 
     </a>

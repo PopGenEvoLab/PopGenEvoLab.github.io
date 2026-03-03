@@ -8,19 +8,33 @@ education:
   - deg | inst  <br> 
 subtitle: "Postdoctoral Fellow | Graduate Student, dept "
 description: ""
+bio: ""
 image: avatar.jpg
+
+# Group publications
 listing:
-  id: pubs
-  template: ../_ejs/publications-people.ejs 
-  contents: 
-    - "../../publications/**/*.qmd"
-    - "!../../publications/_template/"
-  sort: "pub_number desc"
-  # sort-ui: true
-  filter-ui: true
-  include:
-    author: *TITLE
-  fields: [publication, title, categories, image, date, author]
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
 page-layout: full
 about: 
   id: about
@@ -35,15 +49,26 @@ about:
 
 <hr>
 
-::: {#about}
+:::: {#about}
 ## Education
 
 {{< meta education >}}
 
-<br>
+## **Description**
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
 :::
+
+<br>
+::::
 
 ## {{< meta first >}}'s Group Publications
 
-::: {#pubs}
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
 :::

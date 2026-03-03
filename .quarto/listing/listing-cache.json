@@ -1,17 +1,97 @@
 {
   "listingMap": {
+    "research/area1/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/"
+    ],
+    "research/index.qmd": [
+      "B3049D40"
+    ],
+    "research/area2/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/"
+    ],
+    "research/area3/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/"
+    ],
     "4_projects.qmd": [
       "projects/*.qmd"
     ],
     "publications/index.qmd": [
       "*.qmd"
     ],
+    "5_media.qmd": [
+      "media/*.qmd"
+    ],
+    "people/LeonardoCorrea/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/AlanGodinez/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/RigobertoPadilla/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/EduardoArrieta/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/NataliePineda/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
     "people/index.qmd": [
       "B3049D40"
     ],
+    "people/PabloUribe/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/FedericoSanchez/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/SantiagoRosas/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
     "people/EveliaCoss/index.qmd": [
       "../../publications/**/*.qmd",
-      "!../../publications/_template/"
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "people/PavelSalazar/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
+    "5_news.qmd": [
+      "news/*.qmd"
+    ],
+    "personal_publications/index.qmd": [
+      "*.qmd"
     ]
   }
 }

@@ -1,0 +1,83 @@
+---
+title: &TITLE Federico Sánchez Quinto
+last: Sánchez
+first: Federico
+people_group: pi
+email: "fsanchez@liigh.unam.mx"
+education:
+  - Ph.D. X | Pompeu Fabra University in Barcelona
+subtitle: Principal Investigator
+description: ""
+bio: "Federico is part of the first cohort of the BSc degree in Genomic Sciences from UNAM (National University of Mexico), graduating in 2008. He later graduated from MSc (2009) and a PhD (2014) studies at Pompeu Fabra University in Barcelona, Spain under the supervision of Dr. Carles Lalueza Fox. His doctoral thesis focused on better understanding the evolutionary history of Neanderthals by characterizing their genetic diversity, admixture with modern humans and social structure. Following his academic training, he carried out a postdoctoral research stay from 2015 to 2019 at the University of Uppsala, Sweden, under the guidance of Dr. Mattias Jakobsson. During this period he was involved in multiple projects which leveraged the temporal perspective from paleogenomics studies to better reconstruct past evolutionary events. Some of these projects included characterizing the demographic impact of the advent of agriculture in Europe and the peopling process of the Philippines. Before joining LIIGH, he was a Researcher in Medical Sciences at National Institute for Genomic Medicine of Mexico from 2019 to 2022 where he used population genetics to better understand the genetic basis of diseases in the Mexican population. At LIIGH, he is interested in using palegenomic data, in light of an interdisciplinary interpretation, to better understand the evolutionary history of multiple organisms that inhabited Mexico, particularly human populations. He is also interested in using population genetics tools and an evolutionary biology approach to better understand the genetic etiology of diseases in the Mexican population."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:fsanchez@liigh.unam.mx
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=eCs-tmMAAAAJ&hl=es
+    - icon: github
+      text: GitHub 
+      href: https://github.com/PopGenEvoLab
+    - icon: orcid
+      text: ORCID 
+      href: https://orcid.org/0000-0002-0201-6204       
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

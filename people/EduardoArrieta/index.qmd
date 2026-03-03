@@ -1,0 +1,80 @@
+---
+title: &TITLE Eduardo Alejandro Arrieta Donato
+last: Arrieta
+first: Eduardo
+people_group: understudent
+email: "earrieta@lcg.unam.mx"
+education:
+  - BSc Student in Genomic Sciences | UNAM
+subtitle: Undergraduate Student 
+description: ""
+bio: "I have a Bsc in Genomic Sciences from the Genomic Sciences undergraduate program at UNAM, specializing in paleogenomic and phylogenetic analysis.
+
+I am currently working in paleogenomic and population genomics projects at the International Laboratory for Human Genome Research (LIIGH-UNAM), as part of the Paleogenomics and Evolutionary Biology group, under the supervision of Dr. Federico Sánchez Quinto.
+
+I am experienced in evolutionary analysis using mammoth mitogenomes (Mammuthus columbi), and have advanced training in Python programming.
+
+I am quite interested in impulse paleogenomics frontiers into aquatic environments projects."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:earrieta@lcg.unam.mx
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

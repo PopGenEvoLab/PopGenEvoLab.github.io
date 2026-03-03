@@ -1,0 +1,16 @@
+---
+title: "Chapter 6 - Induction of plant resistance to biotic stress by priming with β-aminobutyric acid (BABA) and its effect on nitrogen-fixing nodule development"
+date: 2020-01-01
+author: ["Evelia Lorena Coss Navarrete", "Armando Díaz-Valle", "Raúl Alvarez-Venega"]
+publication: "Academic press, **1**, _101-114_ (2020)."
+categories: ["plants", "priming"]
+url_source: https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780128178928000064
+url_preprint: 
+url_pdf: https://drive.google.com/file/d/1rWtzMEv5d1uEvPKtv9_ck-LNp3udp28P/view?usp=sharing
+journ: "Plant Science"
+page: 101-114
+issue: 1
+year: 2020
+image: "../cover/04_baba.png"
+pub_number: 4
+---
