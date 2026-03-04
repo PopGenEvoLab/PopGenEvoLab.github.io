@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Paleogenomics and Evolutionary Biology"
+  
+  # Rastreo de Google Analystics
+  google-analytics: "G-VNDXQWFF04"
   back-to-top-navigation: true #boton Back to the top
   favicon: img/Mammoth_DNnoback.png
   
