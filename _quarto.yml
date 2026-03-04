@@ -18,12 +18,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: people/index.qmd 
+      - text: "People"         
+        href: people/index.qmd 
       - href: research/index.qmd
       - href: publications/index.qmd 
-      - text: "Projects" 
-        href: 4_projects.qmd
-      - text: "Videos"
+      - text: "Events" 
+        href: 4_events.qmd
+      - text: "Science communication" 
         href: 5_videos.qmd
       - text: "News"
         href: 5_news.qmd

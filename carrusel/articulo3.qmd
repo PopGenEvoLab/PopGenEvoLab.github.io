@@ -5,7 +5,7 @@ format: html
 
 ## Título del Artículo 2
 
-![Imagen del Artículo 2](../img/Mammoth_DNnoback.png){.img-fluid .rounded}
+![Imagen del Artículo 2](cover/IMG_8212.jpg){.img-fluid .rounded}
 
 ### Resumen breve
 

@@ -69,22 +69,11 @@
     "items": []
   },
   {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
-    ]
+    "listing": "/research/area2/index.html",
+    "items": []
   },
   {
-    "listing": "/4_projects.html",
-    "items": [
-      "/projects/RSGMexico.html",
-      "/projects/reprohack.html",
-      "/projects/Rladies.html",
-      "/projects/VieRnesBioinfo.html"
-    ]
-  },
-  {
-    "listing": "/research/area3/index.html",
+    "listing": "/research/area1/index.html",
     "items": []
   },
   {
@@ -96,12 +85,23 @@
     ]
   },
   {
-    "listing": "/research/area1/index.html",
+    "listing": "/research/area3/index.html",
     "items": []
   },
   {
-    "listing": "/research/area2/index.html",
-    "items": []
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+    ]
+  },
+  {
+    "listing": "/4_events.html",
+    "items": [
+      "/events/RSGMexico.html",
+      "/events/reprohack.html",
+      "/events/Rladies.html",
+      "/events/VieRnesBioinfo.html"
+    ]
   },
   {
     "listing": "/people/LeonardoCorrea/index.html",

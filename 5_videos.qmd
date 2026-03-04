@@ -1,5 +1,5 @@
 ---
-title: "Videos"
+title: ""
 format: html
 listing: 
   contents: 
@@ -10,3 +10,7 @@ listing:
   sort-ui: [title, date] # Agregar barra de orden
   filter-ui: [title, date] # Agregar barra de filtrado
 ---
+
+## Press coverage of publications
+
+## **Popular science articles** 

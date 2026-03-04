@@ -5,7 +5,7 @@ format: html
 
 ## Título del Artículo 2
 
-![Imagen del Artículo 2](../img/Mammoth_DNnoback.png){.img-fluid .rounded}
+![Imagen del Artículo 2](cover/Foto_LBPE_DiasAcademicosLIIGH_2026_v2.jpeg){.img-fluid .rounded fig-align="center"}
 
 ### Resumen breve
 

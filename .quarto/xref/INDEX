@@ -181,5 +181,29 @@
   },
   "publications/2025_01_Columbian_Mammoth_Science/index.qmd": {
     "index.html": "67d0b59a"
+  },
+  "5_events.qmd": {
+    "5_events.html": "9475d546"
+  },
+  "events/Rladies.qmd": {
+    "Rladies.html": "618380ac"
+  },
+  "events/reprohack.qmd": {
+    "reprohack.html": "ccdeb1bf"
+  },
+  "events/VieRnesBioinfo.qmd": {
+    "VieRnesBioinfo.html": "266afc57"
+  },
+  "events/RSGMexico.qmd": {
+    "RSGMexico.html": "f6e7a480"
+  },
+  "4_events.qmd": {
+    "4_events.html": "8813d759"
+  },
+  "carrusel/articulo4.qmd": {
+    "articulo4.html": "b8a61a37"
+  },
+  "carrusel/articulo5.qmd": {
+    "articulo5.html": "f6433d46"
   }
 }

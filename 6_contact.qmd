@@ -21,18 +21,20 @@ about:
 # page-layout: full
 ---
 
-::: {#contact}
+:::: {#contact}
 
-Feel free to reach out via email for any inquiries or collaborations:
+## **Join our team!**
 
-##### {{< fa envelope >}}   [fsanchez\@liigh.unam.mx](mailto:fsanchez@liigh.unam.mx)
+We’re looking for enthusiastic students to collaborate on cutting-edge projects. Explore our current work [here](), and if you’d like to be part of it, reach out to us at {{< fa envelope >}} [fsanchez\@liigh.unam.mx](mailto:fsanchez@liigh.unam.mx).
+
+## **¡Únete a nuestro equipo!**
+
+Estamos buscando estudiantes entusiastas para colaborar en proyectos de vanguardia. Explora nuestro trabajo actual [aquí]() y, si te interesa formar parte, escríbenos a {{< fa envelope >}} [fsanchez\@liigh.unam.mx](mailto:fsanchez@liigh.unam.mx).
 
 <br>
 
-His laboratory is located at the International Laboratory for Human Genome Research (LIIGH-UNAM), Juriquilla, Querétaro.
-
-##### {{< fa map-location-dot >}}  **Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH) UNAM**, Blvd. 3001,76230, Campus UNAM 3001, Juriquilla, Querétaro, México.
-:::
+##### {{< fa map-location-dot >}} **Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH) UNAM**, Blvd. 3001,76230, Campus UNAM 3001, Juriquilla, Querétaro, México.
+::::
 
 ```{r}
 #| echo: false
@@ -41,10 +43,11 @@ library(leaflet)
 
 leaflet() %>%
   addTiles() %>%
-  # 20.700672551364505, -100.44710424418057
+  # INFO
   setView(lng = -100.44710424418057, lat = 20.700672551364505, zoom = 15) %>%
   addMarkers(lng = -100.44710424418057, lat = 20.700672551364505,
-             popup = "LIIGH-UNAM, Juriquilla, Querétaro")
+             popup = "<b>LIIGH-UNAM</b><br> Juriquilla, Querétaro<br> <a href='https://liigh.unam.mx' target='_blank'>Sitio web</a>" )  %>%
+  addLabelOnlyMarkers( lng = -100.44710424418057, lat = 20.700672551364505, label = "LIIGH-UNAM", labelOptions = labelOptions(noHide = TRUE) )
 ```
 
 <br>
