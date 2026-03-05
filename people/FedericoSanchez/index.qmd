@@ -52,7 +52,7 @@ about:
       text: GitHub 
       href: https://github.com/PopGenEvoLab
     - icon: orcid
-      text: ORCID 
+      text: ORCID
       href: https://orcid.org/0000-0002-0201-6204       
 ---
 

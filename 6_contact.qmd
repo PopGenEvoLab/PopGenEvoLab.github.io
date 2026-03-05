@@ -21,8 +21,7 @@ about:
 # page-layout: full
 ---
 
-:::: {#contact}
-
+::: {#contact}
 ## **Join our team!**
 
 We’re looking for enthusiastic students to collaborate on cutting-edge projects. Explore our current work [here](), and if you’d like to be part of it, reach out to us at {{< fa envelope >}} [fsanchez\@liigh.unam.mx](mailto:fsanchez@liigh.unam.mx).
@@ -34,7 +33,7 @@ Estamos buscando estudiantes entusiastas para colaborar en proyectos de vanguard
 <br>
 
 ##### {{< fa map-location-dot >}} **Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH) UNAM**, Blvd. 3001,76230, Campus UNAM 3001, Juriquilla, Querétaro, México.
-::::
+:::
 
 ```{r}
 #| echo: false

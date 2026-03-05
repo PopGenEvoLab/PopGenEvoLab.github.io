@@ -1,6 +1,7 @@
 ---
-title: Fast Electron Nano-Spectroscopy
-alias: &ALIAS fast_electron_nano-spectroscopy
+title: Ancient DNA & Paleogenomics
+subtitle: Genómica y ADN antiguo
+alias: &ALIAS ancient_dna_paleogenomics
 image: featured.jpg
 listing:
   id: pubs
@@ -12,16 +13,19 @@ listing:
   # sort-ui: true
   filter-ui: true
   include:
-    categories: *ALIAS
+    categories: 
+      - *ALIAS
+      - "ancient DNA"
+      - "paleogenomics"
+      - "Denisovan"
   fields: [publication, title, categories, image, date, author]
-
 ---
+
 ![](featured.jpg)
 
-Pushing the boundaries of fast electron spectroscopy, energy-monochromated and aberration-corrected scanning transmission electron microscopes have opened the far infrared to nanometer scale spatial mapping. Together with experiment, we leverage these advances to resolve open fundamental questions in nano-spectroscopy, perform entirely new materials characterization techniques at the single-particle level, and discover advanced materials endowed with unprecedented functionalities. 
+Description ...
 
 ## Related Publications
 
-
-:::{#pubs}
+::: {#pubs}
 :::

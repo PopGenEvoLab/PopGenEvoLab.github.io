@@ -3,7 +3,7 @@ title: "Columbian mammoth mitogenomes from Mexico uncover the species’ complex
 date: 2025-08-28
 author:  ["Eduardo Arrieta Donato", "Ángeles Tavares-Guzmán", "Miriam Bravo-Lopez", "Viridiana Villa-Islas","Alejandra Castillo Carbajal", "Wenxi Li", "Ernesto Garfias-Morales", "Rigoberto Padilla Bustos", "Marcela Sandoval-Velasco", "Luis Córdoba-Barradas", "Ruben Manzanilla-López", "J. Camilo Chacón-Duque", "Alejandro López-Jímenez", "Mashaal Sohail", "Joaquín Arroyo-Cabrales", "María C. Ávila-Arcos", "Federico Sánchez Quinto"]
 publication: "Science, **6768**, _47-52_ (2025)."
-categories: ["mammoth", "ancient DNA", "Mexico", "paleogenomics"]
+categories: ["mammoth", "megafauna", "Mexico"]
 url_source: https://www.science.org/doi/10.1126/science.adt9651
 url_preprint: 
 url_pdf: https://www.researchgate.net/publication/395037266_Columbian_mammoth_mitogenomes_from_Mexico_uncover_the_species'_complex_evolutionary_history

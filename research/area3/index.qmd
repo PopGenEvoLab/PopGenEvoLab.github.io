@@ -1,6 +1,7 @@
 ---
-title: Photothermal Spectroscopy and Microscopy
-alias: &ALIAS photothermal_spectroscopy_and_microscopy
+title: "Human Population Genetics & Migrations"
+subtitle: "Poblaciones humanas y migraciones"
+alias: &ALIAS humanmigration_genomics
 image: featured.jpg
 listing:
   id: pubs
@@ -12,16 +13,18 @@ listing:
   # sort-ui: true
   filter-ui: true
   include:
-    categories: *ALIAS
+    categories:
+      - *ALIAS
+      - "human migrations"
+      - "genomics"
   fields: [publication, title, categories, image, date, author]
-
 ---
+
 ![](featured.jpg)
 
-Measurement of the two distinct components—scattering and absorption—of a single particle's optical extinction provides fundamentally important and complementary information on how that object processes light: either scattering it back to the far-field or converting it into internal excitation. Yet measurement and separation of each is an extraordinarily difficult experimental task. Far-field optical spectroscopies and microscopies are also limited by diffraction, which further restricts the amount of information attainable. In spite of these constraints, we combine ideas from photothermal heterodyne imaging and plasmon-enhanced super-resolution imaging to correlate the absorption spectra of individual nanoscopic objects with their precise locations below the diffraction limit. Active far-field manipulation and control of the thermal near-field in engineered metamaterials extends this work in new directions that we are currently exploring in collaboration with multiple experimental teams.
+Description ...
 
 ## Related Publications
 
-
-:::{#pubs}
+::: {#pubs}
 :::
