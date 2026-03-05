@@ -244,5 +244,17 @@
   },
   "people/AlejandraCastillo/index.qmd": {
     "index.html": "c4258140"
+  },
+  "publications/2023_07_preHispanic_Science/index.qmd": {
+    "index.html": "bcbdb22e"
+  },
+  "publications/2022_05_ancientGenomes/index.qmd": {
+    "index.html": "2cbe227d"
+  },
+  "publications/2022_06_ancientDNA/index.qmd": {
+    "index.html": "5e23937a"
+  },
+  "publications/2025_08_Columbian_Mammoth_Science/index.qmd": {
+    "index.html": "c028a9c1"
   }
 }

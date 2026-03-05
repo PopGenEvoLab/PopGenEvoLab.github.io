@@ -1,16 +1,17 @@
 ---
-title: "Columbian mammoth mitogenomes from Mexico uncover the species’ complex evolutionary history"
-date: 2025-08-28
-author:  ["Eduardo Arrieta Donato", "Ángeles Tavares-Guzmán", "Miriam Bravo-Lopez", "Viridiana Villa-Islas","Alejandra Castillo-Carbajal", "Wenxi Li", "Ernesto Garfias-Morales", "Rigoberto Padilla Bustos", "Marcela Sandoval-Velasco", "Luis Córdoba-Barradas", "Ruben Manzanilla-López", "J. Camilo Chacón-Duque", "Alejandro López-Jímenez", "Mashaal Sohail", "Joaquín Arroyo-Cabrales", "María C. Ávila-Arcos", "Federico Sánchez Quinto"]
-publication: "Science, **390**, _47-52_ (2025)."
-categories: ["mammoth"]
-url_source: https://www.science.org/doi/10.1126/science.adt9651
+title: "The genomic landscape of Mexican Indigenous populations brings insights into the peopling of the Americas"
+date: 2021-10-12
+author:  ["Humberto García-Ortiz", "Francisco Barajas-Olmos", "Cecilia Contreras-Cubas", "Miguel Ángel Cid-Soto", "Emilio J. Córdova", "Federico Centeno-Cruz", "Elvia Mendoza-Caamal", "Isabel Cicerón-Arellano", "Marlen Flores-Huacuja", "Paulina Baca", "Deborah A. Bolnick", "Meradeth Snow", "Silvia Esperanza Flores-Martínez", "Rocio Ortiz-Lopez", "Austin W. Reynolds", "Antonio Blanchet", "Mirna Morales-Marín", "Rafael Velázquez-Cruz", "Aleksandar David Kostic", "Carlos Galaviz-Hernández", "Alejandra Guadalupe García-Zapién", "José Concepción Jiménez-López", "Guadalupe León-Reyes", "Eva Gabriela Salas-Bautista", "Blanca Patricia Lazalde-Ramos", "Juan Luis Jiménez-Ruíz", "Guadalupe Salas-Martínez", "Jazmín Ramos-Madrigal", "Elaheh Mirzaeicheshmeh", "Yolanda Saldaña-Alvarez", "María del Carmen Abrahantes-Pérez", "Francisco Loeza-Becerra", "Rosa Mojica-Espinosa", "Federico Sánchez Quinto", "Humberto Rangel-Villalobos", "María Sosa-Macías", "Mario Sánchez-Corona"]
+publication: "Nature Communications, **12**, _6856_ (2021)."
+categories: ["Mexico","human migrations", "genomics"]
+url_source: https://www.nature.com/articles/s41467-021-26188-w
 url_preprint: 
-url_pdf: https://www.researchgate.net/publication/395037266_Columbian_mammoth_mitogenomes_from_Mexico_uncover_the_species'_complex_evolutionary_history
-journ: "Science"
-issue: 390
-page: 47-52
-year: 2025
+url_pdf: 
+journ: "Nature Communications"
+volumen: 12
+issue: ""
+page: "6856"
+year: 2021
 pub_number: 4
-image: "../cover/01_mammoth_science.png"
+image: "../cover/04_mexican_nature.png"
 ---

@@ -1,0 +1,17 @@
+---
+title: "An empirical evaluation of genotype imputation of ancient DNA"
+date: 2022-05-30
+author:  ["Kristiina Ausmees", "Federico Sánchez Quinto", "Mattias Jakobsson", "Carl Nettelblad"]
+publication: "G3, **12**, _jkac089_ (2022)."
+categories: ["epigenomics", "ancient DNA", "genomics"]
+url_source: https://academic.oup.com/g3journal/article/12/6/jkac089/6575448
+url_preprint: 
+url_pdf: https://brxt.mendeley.com/document/content/6197ab49-b698-3920-9839-ccd7f7bdb7ed
+journ: "G3"
+volumen: 12
+issue: 6
+page: "jkac089"
+year: 2022
+pub_number: 6
+image: "../cover/06_coverge.png"
+---

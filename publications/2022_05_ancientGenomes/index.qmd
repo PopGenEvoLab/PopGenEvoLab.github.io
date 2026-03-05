@@ -1,0 +1,17 @@
+---
+title: "Epigenomic Modifications in Modern and Ancient Genomes"
+date: 2022-01-20
+author:  ["Laura Niiranen", "Dawid Leciej", "Hanna Edlund", "Carolina Bernhardsson", "Magdalena Fraser", "Federico Sánchez Quinto", "Karl-Heinz Herzig", "Mattias Jakobsson", "Jarosław Walkowiak", "Olaf Thalmann"]
+publication: "Genes, **13**, _178_ (2022)."
+categories: ["epigenomics", "ancient DNA", "genomics"]
+url_source: https://www.mdpi.com/2073-4425/13/2/178
+url_preprint: 
+url_pdf: https://brxt.mendeley.com/document/content/45b14c37-52ba-3195-a61e-7fc9427d240e
+journ: "Genes"
+volumen: 13
+issue: 2
+page: "178"
+year: 2022
+pub_number: 5
+image: "../cover/05_Genes.png"
+---

@@ -52,10 +52,7 @@
   {
     "listing": "/people/RigobertoPadilla/index.html",
     "items": [
-      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
-      "/publications/2022_05_ancientDNA/index.html",
-      "/publications/2022_04_Epogenomic/index.html",
-      "/publications/2021_03_MexicanIndigenous_nature/index.html"
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html"
     ]
   },
   {
@@ -72,7 +69,24 @@
     ]
   },
   {
-    "listing": "/research/area3/index.html",
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html",
+      "/publications/2023_07_preHispanic_Science/index.html",
+      "/publications/2022_06_ancientDNA/index.html",
+      "/publications/2022_05_ancientGenomes/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html",
+      "/publications/2021_02_Philippine/index.html",
+      "/publications/2019_01_migrations/index.html"
+    ]
+  },
+  {
+    "listing": "/research/area2/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/area1/index.html",
     "items": []
   },
   {
@@ -84,24 +98,8 @@
     ]
   },
   {
-    "listing": "/research/area1/index.html",
+    "listing": "/research/area3/index.html",
     "items": []
-  },
-  {
-    "listing": "/research/area2/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
-      "/publications/2023_06_preHispanic_Science/index.html",
-      "/publications/2022_05_ancientDNA/index.html",
-      "/publications/2022_04_Epogenomic/index.html",
-      "/publications/2021_03_MexicanIndigenous_nature/index.html",
-      "/publications/2021_02_Philippine/index.html",
-      "/publications/2019_01_migrations/index.html"
-    ]
   },
   {
     "listing": "/index.html",
@@ -120,10 +118,7 @@
   {
     "listing": "/people/EduardoArrieta/index.html",
     "items": [
-      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
-      "/publications/2022_05_ancientDNA/index.html",
-      "/publications/2022_04_Epogenomic/index.html",
-      "/publications/2021_03_MexicanIndigenous_nature/index.html"
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html"
     ]
   },
   {
@@ -145,17 +140,21 @@
   {
     "listing": "/people/FedericoSanchez/index.html",
     "items": [
-      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
-      "/publications/2023_06_preHispanic_Science/index.html",
-      "/publications/2022_05_ancientDNA/index.html",
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html",
+      "/publications/2023_07_preHispanic_Science/index.html",
+      "/publications/2022_06_ancientDNA/index.html",
+      "/publications/2022_05_ancientGenomes/index.html",
       "/publications/2022_04_Epogenomic/index.html",
       "/publications/2021_03_MexicanIndigenous_nature/index.html",
+      "/publications/2021_02_Philippine/index.html",
       "/publications/2019_01_migrations/index.html"
     ]
   },
   {
     "listing": "/people/AlejandraCastillo/index.html",
-    "items": []
+    "items": [
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html"
+    ]
   },
   {
     "listing": "/people/PavelSalazar/index.html",

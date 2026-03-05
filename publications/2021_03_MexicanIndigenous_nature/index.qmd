@@ -1,16 +1,18 @@
 ---
-title: "Columbian mammoth mitogenomes from Mexico uncover the species’ complex evolutionary history"
-date: 2025-08-28
-author:  ["Eduardo Arrieta Donato", "Ángeles Tavares-Guzmán", "Miriam Bravo-Lopez", "Viridiana Villa-Islas","Alejandra Castillo-Carbajal", "Wenxi Li", "Ernesto Garfias-Morales", "Rigoberto Padilla Bustos", "Marcela Sandoval-Velasco", "Luis Córdoba-Barradas", "Ruben Manzanilla-López", "J. Camilo Chacón-Duque", "Alejandro López-Jímenez", "Mashaal Sohail", "Joaquín Arroyo-Cabrales", "María C. Ávila-Arcos", "Federico Sánchez Quinto"]
-publication: "Science, **390**, _47-52_ (2025)."
-categories: ["mammoth"]
-url_source: https://www.science.org/doi/10.1126/science.adt9651
+title: "Philippine Ayta possess the highest level of Denisovan ancestry in the world"
+date: 2021-08-11
+author:  ["Maximilian Larena", "James McKenna", "Federico Sánchez Quinto", "Carolina Bernhardsson", "Carlo Ebeo", "Rebecca Reyes", "Ophelia Casel", "Jin-Yuan Huang", "Kim Pullupul Hagada", "Dennis Guilay", "Jennelyn Reyes", "Fatima Pir Allian", "Virgilio Mori", "Lahaina Sue Azarcon", "Alma Manera", "Celito Terando", "Lucio Jamero Jr.", "Gauden Sireg", "Renefe Manginsay-Tremedal", "Maria Shiela Labos", "Richard Dian Vilar", "Acram Latiph", "Rodelio Linsahay Saway", "Erwin Marte", "Pablito Magbanua", "Amor Morales", "Ismael Java", "Rudy Reveche", "Becky Barrios", "Erlinda Burton", "Jesus Christopher Salon", "Ma. Junaliah Tuazon Kels", "Adrian Albano", "Rose Beatrix Cruz-Angeles", "Edison Molanida", "Lena Granehäll", "Mário Vicente", "Hanna Edlund", "Jun-Hun Loo", "Jean Trejaut", "Simon Y.W. Ho", "Lawrence Reid", "Kurt Lambeck", "Helena Malmström", "Carina Schlebusch", "Phillip Endicott", "Mattias Jakobsson"
+]
+publication: "Current Biology, **31**, _3190-3195_ (2021)."
+categories: ["Denisovan", "genomics"]
+url_source: https://doi.org/10.1016/j.cub.2021.07.022 
 url_preprint: 
-url_pdf: https://www.researchgate.net/publication/395037266_Columbian_mammoth_mitogenomes_from_Mexico_uncover_the_species'_complex_evolutionary_history
-journ: "Science"
-issue: 390
-page: 47-52
-year: 2025
+url_pdf: https://www.sciencedirect.com/science/article/pii/S0960982221009775/pdf
+journ: "Current Biology"
+volumen: 31
+issue: 15
+page: "3190-3195"
+year: 2021
 pub_number: 3
-image: "../cover/01_mammoth_science.png"
+image: "../cover/03_Denisovan.png"
 ---
