@@ -18,7 +18,8 @@
         </div>
         <div class="body">
             <!-- <a href="<%- item.path %>"> -->
-            <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
+            <div class="no-anchor listing-pub-title listing-title">
+               <%= item.title %></div>
             <!-- </a> -->
             <!-- <a href="<%- item.path %>"> -->
                 
@@ -40,20 +41,40 @@
                     
                     
             <!-- </a> -->
- <!--               <div class="listing-categories">
+ <!--  Categorias - esta comentado             <div class="listing-categories">
                 <% for (const category of item.categories) { %>
                 <div class="listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;"><%= category %></div>
                 <% } %>
                 </div>
                 -->
         </div>
+        
         <div class="metadata">
+        
+        
             <!-- <a href="<%- item.path %>"> -->
+            <!-- Número de publicación -->
                 <div class="listing-pub-number">
                     <%= item.pub_number %><br> 
                 </div>
 
             <!-- </a> -->
+            
+          <!-- Aquí mostramos primero revista + año -->
+            <% if (item.journ || item.year) { %>
+                <div class="listing-pub-journal">
+                    <% if (item.journ) { %>
+                        <span class="journal-highlight"><i><%= item.journ %></i></span>
+                    <% } %>
+            <% if (item.year) { %> 
+                        <span class="journal-highlight">(<%= item.year %>)</span>
+            <% } %>
+                 </div>
+            <% } %>
+
+            
+            
+            <!-- links relacionados -->
             <% if (item.url_source) { %>
             <div class="listing-pub-url">
 

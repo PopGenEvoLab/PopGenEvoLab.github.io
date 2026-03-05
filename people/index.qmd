@@ -9,9 +9,9 @@ listing:
     template: ../_ejs/people-box.ejs
     type: grid
     fields: [title, subtitle, image, education]
-  - id: researcher
+  - id: technician
     include: 
-      people_group: "researcher"
+      people_group: "technician"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
@@ -69,6 +69,11 @@ page-layout: full
 ## Principal Investigator
 
 ::: {#pi}
+:::
+
+## Academic Technician
+
+::: {#technician}
 :::
 
 ## Postdoctoral Fellows

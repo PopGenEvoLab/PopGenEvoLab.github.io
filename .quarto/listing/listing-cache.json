@@ -75,6 +75,12 @@
       "../../personal_publications/**/*.qmd",
       "!../../personal_publications/_template/"
     ],
+    "people/AlejandraCastillo/index.qmd": [
+      "../../publications/**/*.qmd",
+      "!../../publications/_template/",
+      "../../personal_publications/**/*.qmd",
+      "!../../personal_publications/_template/"
+    ],
     "people/EveliaCoss/index.qmd": [
       "../../publications/**/*.qmd",
       "!../../publications/_template/",

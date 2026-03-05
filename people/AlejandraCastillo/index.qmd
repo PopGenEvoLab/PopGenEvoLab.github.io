@@ -1,0 +1,74 @@
+---
+title: &TITLE Alejandra Castillo Carbajal 
+last: Castillo
+first: Alejandra
+people_group: technician
+email: "acastillo@liigh.unam.mx"
+education:
+  - M.Sc. Bioinformatics and Biostatistics | Open University of Catalonia
+subtitle: Academic Technician
+description: ""
+bio: "Alejandra obtained a Bachelor’s degree in Food Chemical Engineering from the Autonomous University of Querétaro (UAQ) in 2012 and a Master’s degree in Bioinformatics and Biostatistics from the Open University of Catalonia (UOC) in 2022. Her professional career began in the Department of Microbiology at the Faculty of Chemistry, UAQ, where she gained experience in the application of conventional and molecular microbiological techniques for the identification of microorganisms. In 2015, she joined the International Laboratory for Human Genome Research (LIIGH) at the National Autonomous University of Mexico (UNAM), Juriquilla campus, as an Academic Technician. In this role, she collaborated with multiple research groups and contributed to the development, optimization, and implementation of protocols in the fields of genomics and molecular biology. Since 2023, she has been part of the Population and Evolutionary Genomics (Dr. María Ávila)  and Paleogenomics and Evolutionary Biology (Dr. Federico Sánchez) research groups as an Academic Technician undertaking research and collaborating in diverse projects in paleogenomics, evolutionary biology, and population genomics."
+image: avatar.jpg
+
+# Group publications
+listing:
+  - id: group-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../publications/**/*.qmd"
+      - "!../../publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+  - id: personal-pubs
+    template: ../../_ejs/publications-people.ejs 
+    contents: 
+      - "../../personal_publications/**/*.qmd"
+      - "!../../personal_publications/_template/"
+    sort: "pub_number desc"
+    filter-ui: true
+    include:
+      author: *TITLE
+    fields: [publication, title, categories, image, date, author]
+
+page-layout: full # La página se muestra en ancho completo.
+about: 
+  id: about
+  template: trestles
+  image-shape: round # imagen redonda
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:acastillo@liigh.unam.mx
+---
+
+<hr>
+
+:::: {#about}
+## Education
+
+{{< meta education >}}
+
+## Description
+
+::: {style="text-align: justify;"}
+{{< meta bio >}}
+:::
+
+<br>
+::::
+
+## {{< meta first >}}'s Group Publications
+
+::: {#group-pubs}
+:::
+
+## {{< meta first >}}'s Personal Publications
+
+::: {#personal-pubs}
+:::

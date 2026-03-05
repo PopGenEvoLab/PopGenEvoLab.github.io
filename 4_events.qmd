@@ -10,3 +10,7 @@ listing:
   sort-ui: [title, date] # Agregar barra de orden
   filter-ui: [title, date] # Agregar barra de filtrado
 ---
+
+::: callout-note
+Aqui van los eventos como los Dias academicos y premios de mejor charla, etc
+:::

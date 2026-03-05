@@ -1,0 +1,17 @@
+---
+title: "Multiple migrations to the Philippines during the last 50,000 years"
+date: 2021-03-30
+author: [ "Maximilian Larena", "Federico Sánchez-Quinto", "Per Sjödin", "James McKenna", "Carlo Ebeo", "Rebecca Reyes", "Ophelia Casel", "Jin-Yuan Huang", "Kim Pullupul Hagada", "Dennis Guilay", "Jennelyn Reyes", "Fatima Pir Allian", "Virgilio Mori", "Lahaina Sue Azarcon", "Alma Manera", "Celito Terando", "Lucio Jamero Jr", "Gauden Sireg", "Renefe Manginsay-Tremedal", "Maria Shiela Labos", "Richard Dian Vilar", "Acram Latiph", "Rodelio Linsahay Saway", "Erwin Marte", "Pablito Magbanua", "Amor Morales", "Ismael Java", "Rudy Reveche", "Becky Barrios", "Erlinda Burton", "Jesus Christopher Salon", "Ma. Junaliah Tuazon Kels", "Adrian Albano", "Rose Beatrix Cruz-Angeles", "Edison Molanida", "Lena Granehäll", "Mário Vicente", "Hanna Edlund", "Jun-Hun Loo", "Jean Trejaut", "Simon Y. W. Ho", "Lawrence Reid", "Helena Malmström", "Carina Schlebusch", "Kurt Lambeck", "Phillip Endicott", "Mattias Jakobsson" ]
+publication: "PNAS, **118**, _e2026132118_ (2021)."
+categories: ["human migrations", "Philippines", "genomics"]
+url_source: https://www.pnas.org/doi/full/10.1073/pnas.2026132118
+url_preprint: 
+url_pdf: 
+journ: "PNAS"
+volumen: 118
+issue: 13
+page: e2026132118
+year: 2021
+pub_number: 2
+image: "../cover/02_pnas_Philippines.jpg"
+---

@@ -11,6 +11,6 @@ journ: "Science"
 issue: 390
 page: 47-52
 year: 2025
-pub_number: 1
+pub_number: 7
 image: "../cover/01_mammoth_science.png"
 ---

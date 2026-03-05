@@ -1,0 +1,17 @@
+---
+title: "Megalithic tombs in western and northern Neolithic Europe were linked to a kindred society"
+date: 2019-05-07
+author:  ["Federico Sánchez Quinto", "Helena Malmström, Magdalena Fraser", "Mattias Jakobsson"]
+publication: "PNAS, **116**, _9469-9474_ (2019)."
+categories: ["mammoth"]
+url_source: https://www.pnas.org/doi/full/10.1073/pnas.1818037116
+url_preprint: 
+url_pdf: 
+journ: "PNAS"
+volumen: 116
+issue: 11 # Numero
+page: 9469-9474
+year: 2019
+pub_number: 1
+image: "../cover/01_pnas_Neolithic.png"
+---

@@ -142,27 +142,95 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 10px;
 }
 
-/*--- Estilo de bloques --- */
-
-/* Aplica a cualquier bloque dentro del listado default */
-.quarto-listing-container-default .quarto-listing > * {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+/*--- Publications --- */
+.listing-pub-title {
+    font-weight: bold;
 }
 
-/* Hover */
-.quarto-listing-container-default .quarto-listing > *:hover {
-  transform: scale(1.02);
-  border-color: #93c54b;
-  box-shadow: 0 6px 15px rgba(147,197,75,0.4);
-  z-index: 2;
-  background-color: #fff;
+.listing-pub-author, .listing-pub-journal {
+    color: #757883;
+    font-size: 12px;
+}
+
+/* Nueva clase para destacar revista y año */
+.journal-highlight {
+    font-size: 14px;   /* más grande que el resto */
+    /*  font-weight: bold; opcional, si quieres resaltarlo */
+    color: #000;       /* opcional, para diferenciarlo */
+}
+
+/*--- Blog - estilo de bloques --- */
+
+.quarto-post .listing-categories .listing-category {
+  border: solid 1px $_fg;
+
+  &:hover {
+    color: $_fg;
+  }
+}
+
+.quarto-grid-item .listing-categories .listing-category:hover,
+.quarto-listing-category .category:hover,
+.quarto-title .quarto-categories .quarto-category a:hover {
+  color: $_fg;
+}
+
+.listing-description {
+  color: $_fg;
+}
+
+// Footer link hover
+.footer a:hover {
+  color: $_link-color;
 }
 
 
+/*--- CARD & GRID ENHANCEMENTS  --- */
+/* Blog listing cards with hover effects */
+.quarto-post {
+  transition: all $_anim-standard $_easing-standard;
+  border-radius: $_radius-md;
+  overflow: hidden;
+  padding: $_space-md;
+  border: 2px solid $_fg;  /* borde base */
 
+  &:hover {
+    will-change: transform;
+    transform: translateY(-4px);
+    box-shadow: $_shadow-lg; /* sombra al hacer hover*/
+    border-color: $_fg;      /* refuerza el borde en hover */
+    border: 2px solid $_link-color; /* cambia el color del borde en hover*/
+  } 
 
+  .listing-title {
+    transition: color 0.3s ease;
+    margin-bottom: $_space-sm !important;
+  }
+
+  .listing-image {
+    transition: transform 0.4s ease;
+    overflow: hidden;
+
+    img {
+      transition: transform 0.4s ease;
+    }
+  }
+
+  &:hover .listing-image img {
+    transform: scale(1.05);
+  }
+}
+
+/* Thumbnail images in listings - match featured image styling  */
+.quarto-listing .thumbnail-image {
+  border-radius: 1.5rem;
+  box-shadow: $_shadow-lg;
+}
+
+/*  Featured images  */
+.img-featured {
+  border-radius: 1.5rem;
+  box-shadow: $_shadow-lg;
+  margin-bottom: $_space-xl;
+}
 

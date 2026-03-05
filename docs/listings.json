@@ -38,35 +38,70 @@
     ]
   },
   {
-    "listing": "/people/FedericoSanchez/index.html",
-    "items": [
-      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/FedericoSanchez/index.html",
-      "/people/EveliaCoss/index.html",
-      "/people/SantiagoRosas/index.html",
-      "/people/AlanGodinez/index.html",
-      "/people/RigobertoPadilla/index.html",
-      "/people/PavelSalazar/index.html",
-      "/people/EduardoArrieta/index.html",
-      "/people/NataliePineda/index.html",
-      "/people/PabloUribe/index.html",
-      "/people/LeonardoCorrea/index.html"
-    ]
-  },
-  {
-    "listing": "/people/EduardoArrieta/index.html",
-    "items": [
-      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
-    ]
-  },
-  {
-    "listing": "/people/AlanGodinez/index.html",
+    "listing": "/people/SantiagoRosas/index.html",
     "items": []
+  },
+  {
+    "listing": "/people/PabloUribe/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/NataliePineda/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/RigobertoPadilla/index.html",
+    "items": [
+      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
+      "/publications/2022_05_ancientDNA/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html"
+    ]
+  },
+  {
+    "listing": "/people/LeonardoCorrea/index.html",
+    "items": []
+  },
+  {
+    "listing": "/4_events.html",
+    "items": [
+      "/events/RSGMexico.html",
+      "/events/reprohack.html",
+      "/events/Rladies.html",
+      "/events/VieRnesBioinfo.html"
+    ]
+  },
+  {
+    "listing": "/research/area3/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/area1/index.html",
+      "/research/area2/index.html",
+      "/research/area3/index.html"
+    ]
+  },
+  {
+    "listing": "/research/area1/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research/area2/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
+      "/publications/2023_06_preHispanic_Science/index.html",
+      "/publications/2022_05_ancientDNA/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html",
+      "/publications/2021_02_Philippine/index.html",
+      "/publications/2019_01_migrations/index.html"
+    ]
   },
   {
     "listing": "/index.html",
@@ -79,61 +114,47 @@
     ]
   },
   {
-    "listing": "/research/area2/index.html",
+    "listing": "/people/AlanGodinez/index.html",
     "items": []
   },
   {
-    "listing": "/research/area1/index.html",
-    "items": []
-  },
-  {
-    "listing": "/research/index.html",
+    "listing": "/people/EduardoArrieta/index.html",
     "items": [
-      "/research/area1/index.html",
-      "/research/area2/index.html",
-      "/research/area3/index.html"
+      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
+      "/publications/2022_05_ancientDNA/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html"
     ]
   },
   {
-    "listing": "/research/area3/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/publications/2023_preHispanic_Science/index.html",
-      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
+      "/people/FedericoSanchez/index.html",
+      "/people/AlejandraCastillo/index.html",
+      "/people/EveliaCoss/index.html",
+      "/people/SantiagoRosas/index.html",
+      "/people/AlanGodinez/index.html",
+      "/people/RigobertoPadilla/index.html",
+      "/people/PavelSalazar/index.html",
+      "/people/EduardoArrieta/index.html",
+      "/people/NataliePineda/index.html",
+      "/people/PabloUribe/index.html",
+      "/people/LeonardoCorrea/index.html"
     ]
   },
   {
-    "listing": "/4_events.html",
+    "listing": "/people/FedericoSanchez/index.html",
     "items": [
-      "/events/RSGMexico.html",
-      "/events/reprohack.html",
-      "/events/Rladies.html",
-      "/events/VieRnesBioinfo.html"
+      "/publications/2025_07_Columbian_Mammoth_Science/index.html",
+      "/publications/2023_06_preHispanic_Science/index.html",
+      "/publications/2022_05_ancientDNA/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html",
+      "/publications/2019_01_migrations/index.html"
     ]
   },
   {
-    "listing": "/people/LeonardoCorrea/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/RigobertoPadilla/index.html",
-    "items": [
-      "/publications/2025_01_Columbian_Mammoth_Science/index.html"
-    ]
-  },
-  {
-    "listing": "/people/NataliePineda/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/PabloUribe/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/SantiagoRosas/index.html",
+    "listing": "/people/AlejandraCastillo/index.html",
     "items": []
   },
   {

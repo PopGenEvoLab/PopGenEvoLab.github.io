@@ -2,11 +2,11 @@
 title: &TITLE Name
 last: 
 first: 
-people_group: "postdoc | gradstudent | alumni"
+people_group: "technician | postdoc | gradstudent | alumni"
 email: 
 education:
   - deg | inst  <br> 
-subtitle: "Postdoctoral Fellow | Graduate Student, dept "
+subtitle: "Academic Technician | Postdoctoral Fellow | Graduate Student, dept "
 description: ""
 bio: ""
 image: avatar.jpg

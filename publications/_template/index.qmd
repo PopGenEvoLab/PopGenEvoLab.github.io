@@ -9,6 +9,7 @@ publication: "Journal, **issue**, _page_ (2024)"
 url_source: 
 url_preprint: 
 journ: "Journal"
+volumen: volumen
 issue: issue
 page: page
 year: 2024

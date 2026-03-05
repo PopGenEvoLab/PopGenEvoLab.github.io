@@ -11,5 +11,9 @@ listing:
   filter-ui: [title, date] # Agregar barra de filtrado
 ---
 
+::: callout-note
+Nuevos miembros y premios
+:::
+
 ::: {#posts}
 :::
