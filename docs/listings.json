@@ -17,10 +17,10 @@
   {
     "listing": "/5_news.html",
     "items": [
-      "/news/RSGMexico.html",
-      "/news/reprohack.html",
-      "/news/Rladies.html",
-      "/news/VieRnesBioinfo.html"
+      "/news/2025_RSG/RSGMexico.html",
+      "/news/2022_Rladies/index.html",
+      "/news/2023_VieRnesBioinfo/VieRnesBioinfo.html",
+      "/news/2020-05-06-ggpacman /index.html"
     ]
   },
   {
@@ -69,6 +69,16 @@
     "items": []
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/carrusel/articulo3.html",
+      "/carrusel/articulo4.html",
+      "/carrusel/articulo5.html",
+      "/carrusel/articulo2.html",
+      "/carrusel/articulo1.html"
+    ]
+  },
+  {
     "listing": "/research/area2/index.html",
     "items": []
   },
@@ -91,6 +101,7 @@
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/2023_preHispanic_Science/index.html",
       "/publications/2025_01_Columbian_Mammoth_Science/index.html"
     ]
   },

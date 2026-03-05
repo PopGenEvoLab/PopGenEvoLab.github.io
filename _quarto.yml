@@ -40,11 +40,17 @@ website:
   # Parte inferior de la pagina web
   page-footer: 
     border: false
-    left: "Published with [Quarto](https://quarto.org/docs/websites) v1.3.450, by [Evelia Coss](https://eveliacoss.github.io/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
-    right: 
+    left: |
+      Published with [Quarto](https://quarto.org) v1.3.450. &copy; []{#current-year} Made by [Evelia Coss](https://eveliacoss.github.io/){target="_blank" rel="noopener noreferrer"}.
+    center: 
+      - text: "Contact us and follow us:"    
+      - icon: envelope
+        href: mailto:fsanchez@liigh.unam.mx   
       - icon: github
-        href: https://github.com/PopGenEvoLab
-
+        href: https://github.com/PopGenEvoLab/PopGenEvoLab.github.io
+    right: |
+      License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0){target="_blank" rel="noopener noreferrer"}.
+ 
 format:
   html:
     theme:

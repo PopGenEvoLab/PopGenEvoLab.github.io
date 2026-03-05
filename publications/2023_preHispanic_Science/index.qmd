@@ -1,0 +1,16 @@
+---
+title: "Demographic history and genetic structure in pre-Hispanic Central Mexico"
+date: 2023-05-12
+author:  ["Viridiana Villa-Islas", "Alan Izarraras-Gomez", "Maximilian Larena", "Federico Sánchez Quinto", "María C. Ávila-Arcos"]
+publication: "Science, **390**, _47-52_ (2025)."
+categories: ["mammoth"]
+url_source: https://www.science.org/doi/10.1126/science.adt9651
+url_preprint: 
+url_pdf: https://www.researchgate.net/publication/395037266_Columbian_mammoth_mitogenomes_from_Mexico_uncover_the_species'_complex_evolutionary_history
+journ: "Science"
+issue: 390
+page: 47-52
+year: 2025
+pub_number: 1
+image: "../cover/01_mammoth_science.png"
+---

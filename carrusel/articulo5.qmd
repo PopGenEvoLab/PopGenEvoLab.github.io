@@ -1,11 +1,13 @@
 ---
 title: "Artículo 3"
 format: html
+image: "cover/IMG_8186.jpg" 
+link: "carrusel/articulo5.html"
 ---
 
 ## Título del Artículo 2
 
-![Imagen del Artículo 2](cover/IMG_8186.jpg){.img-fluid .rounded}
+![Imagen del Artículo 2](cover/IMG_8186.jpg){.img-fluid .rounded fig-align="center"}
 
 ### Resumen breve
 

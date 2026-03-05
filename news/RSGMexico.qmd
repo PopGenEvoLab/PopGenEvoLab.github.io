@@ -1,4 +1,0 @@
----
-title: "RSG México"
-format: html
----

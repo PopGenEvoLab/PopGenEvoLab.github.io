@@ -1,12 +1,15 @@
 ---
 title: "News"
+title-block-banner: true # Titulo en banner visual en la parte superior
 format: html
 listing: 
-  contents: 
-   - "news/*.qmd"
-  type: grid
+  id: posts
+  contents: news
+  type: default
   categories: true
-  fields: [title, image, date, categories, title, subtitle]
-  sort-ui: [title, date] # Agregar barra de orden
+  sort: "date desc" # Ordenar por fecha
   filter-ui: [title, date] # Agregar barra de filtrado
 ---
+
+::: {#posts}
+:::

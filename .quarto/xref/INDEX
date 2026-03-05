@@ -205,5 +205,20 @@
   },
   "carrusel/articulo5.qmd": {
     "articulo5.html": "f6433d46"
+  },
+  "news/2025_RSG/RSGMexico.qmd": {
+    "RSGMexico.html": "8b2533c3"
+  },
+  "news/2022_Rladies/index.qmd": {
+    "index.html": "0209bd0c"
+  },
+  "news/2020-05-06-ggpacman /index.qmd": {
+    "index.html": "b0d4bb0c"
+  },
+  "news/2023_VieRnesBioinfo/VieRnesBioinfo.qmd": {
+    "VieRnesBioinfo.html": "5ed77f22"
+  },
+  "publications/2023_preHispanic_Science/index.qmd": {
+    "index.html": "43964c74"
   }
 }

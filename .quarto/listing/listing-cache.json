@@ -18,6 +18,9 @@
     "publications/index.qmd": [
       "*.qmd"
     ],
+    "index.qmd": [
+      "carrusel/**/*.qmd"
+    ],
     "4_events.qmd": [
       "events/*.qmd"
     ],
@@ -85,7 +88,7 @@
       "!../../personal_publications/_template/"
     ],
     "5_news.qmd": [
-      "news/*.qmd"
+      "news"
     ],
     "5_videos.qmd": [
       "videos/*.qmd"

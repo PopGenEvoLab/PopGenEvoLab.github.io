@@ -1,6 +1,8 @@
 ---
 title: "SMBE Annual Meeting 2024"
 format: html
+image: "cover/Foto_grupo_SMBE.jpg" 
+link: "carrusel/articulo1.html"
 ---
 
 ## Congreso Anual de la Sociedad de Biología Molecular y Evolución

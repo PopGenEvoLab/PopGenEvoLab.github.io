@@ -1,0 +1,15 @@
+{
+  "hash": "f5bddee8160d7c747c9c34bf1872e628",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"A `ggplot2` and `gganimate` Version of Pac-Man\"\ndescription: \"The story of `ggpacman`. Or how to build a useless but fun R package to make a GIF of the game Pac-Man.\"\ndate: \"2020-05-06\"\ncategories: [R, Visualisation, ggplot2, gganimate, Fun]\nimage: featured.png\nimage-alt: |\n  `ggpacman` hexagonal logo representing a red ghost from the game Pac-Man on a black background with a blue border and `ggpacman` written in yellow below the ghost.\nknitr:\n  opts_chunk:\n    dev: \"ragg_png\"\n    dev.args: {background: \"#ffffff00\"}\naliases:\n  - /post/ggpacman/index.html\n  - /post/ggpacman.html\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

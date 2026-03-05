@@ -1,3 +1,9 @@
+/* @license MIT
+@copyright 2026 Evelia Coss
+@author Evelia Coss
+Date: 5 march 2026
+*/
+
 /* css styles */
 
 /* styles.css */
@@ -42,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;         /* mantiene la proporción */
 }
 
+/* ---- HOME: Carrusel de fotos ---- */
 /* Forzar visibilidad de indicadores */
 .carousel-indicators [data-bs-target] {
   background-color: #666 !important; /* gris oscuro */
@@ -51,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-indicators .active { 
-  background-color: #ff0000 !important; /* rojo para el activo */ 
+  background-color: rgba(147,197,75,0.7) !important; /* rojo para el activo */ 
   
 }
 
@@ -71,16 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-/* Barra lateral izquiera en Tutorials */
-/* Bloque resaltado en morado para el item activo del sidebar */
-.sidebar .sidebar-item-container .active {
-  background-color: #dadaeb;   /* fondo morado muy claro */
-  border-left: 4px solid #3f007d; /* línea lateral morada intensa */
-  border-radius: 6px;          /* esquinas redondeadas */
-  padding: 6px 10px;           /* espacio interno */
-  font-weight: bold;           /* texto en negritas */
-  color: #4b0082;              /* texto morado oscuro */
-}
+/* ---- Diseño general ---- */
 
 /* Recuadros enlistados con resalte */
 /* Estilo base de las tarjetas del listing */
@@ -143,3 +141,28 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 8px;
   padding-left: 10px;
 }
+
+/*--- Estilo de bloques --- */
+
+/* Aplica a cualquier bloque dentro del listado default */
+.quarto-listing-container-default .quarto-listing > * {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover */
+.quarto-listing-container-default .quarto-listing > *:hover {
+  transform: scale(1.02);
+  border-color: #93c54b;
+  box-shadow: 0 6px 15px rgba(147,197,75,0.4);
+  z-index: 2;
+  background-color: #fff;
+}
+
+
+
+
+
