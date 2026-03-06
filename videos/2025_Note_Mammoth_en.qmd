@@ -1,0 +1,16 @@
+---
+title: "Mammoths in Mexico: Huge bone trove reveals giant beasts thrived in warmth too"
+format: html
+title-block-banner: true # Titulo en banner visual en la parte superior
+date: 2025-09-12
+image: cover/mexico_mammoths_bone.png
+categories: ["Paleogenomics", "mammoth", "Mammuts", "English"]
+---
+
+On **September 12, 2025**, *Science* published an article about a major discovery in Mexico: a huge trove of mammoth bones that sheds new light on the evolutionary history of these giant beasts.
+
+The research, led by scientists from UNAM and international collaborators including **Federico Sánchez Quinto**, analyzed **ancient mitochondrial DNA** from Colombian mammoths found at sites such as the Felipe Ángeles International Airport.
+
+The findings reveal that mammoths in Mexico had **unexpected genetic differences** compared to populations in the United States and Canada. Importantly, the study shows that Colombian mammoths thrived not only in cold climates but also in the **warm regions of Mesoamerica**, challenging previous assumptions about their ecological range and adaptability.
+
+👉 Read the full article here: [*Science* – Mammoths in Mexico](https://www.science.org/content/article/mammoths-mexico-huge-bone-trove-reveals-giant-beasts-thrived-warmth-too)

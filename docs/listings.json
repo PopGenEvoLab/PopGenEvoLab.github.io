@@ -60,12 +60,48 @@
     "items": []
   },
   {
-    "listing": "/4_events.html",
+    "listing": "/index.html",
     "items": [
-      "/events/RSGMexico.html",
-      "/events/reprohack.html",
-      "/events/Rladies.html",
-      "/events/VieRnesBioinfo.html"
+      "/carrusel/articulo3.html",
+      "/carrusel/articulo4.html",
+      "/carrusel/articulo5.html",
+      "/carrusel/articulo2.html",
+      "/carrusel/articulo1.html"
+    ]
+  },
+  {
+    "listing": "/research/area3/index.html",
+    "items": [
+      "/publications/2023_07_preHispanic_Science/index.html",
+      "/publications/2022_06_ancientDNA/index.html",
+      "/publications/2022_05_ancientGenomes/index.html",
+      "/publications/2022_04_Epogenomic/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html",
+      "/publications/2021_02_Philippine/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/area1/index.html",
+      "/research/area3/index.html",
+      "/research/area2/index.html"
+    ]
+  },
+  {
+    "listing": "/research/area1/index.html",
+    "items": [
+      "/publications/2023_07_preHispanic_Science/index.html",
+      "/publications/2022_06_ancientDNA/index.html",
+      "/publications/2022_05_ancientGenomes/index.html",
+      "/publications/2021_03_MexicanIndigenous_nature/index.html"
+    ]
+  },
+  {
+    "listing": "/research/area2/index.html",
+    "items": [
+      "/publications/2025_08_Columbian_Mammoth_Science/index.html",
+      "/publications/2019_01_migrations/index.html"
     ]
   },
   {
@@ -82,48 +118,12 @@
     ]
   },
   {
-    "listing": "/research/area2/index.html",
+    "listing": "/4_events.html",
     "items": [
-      "/publications/2025_08_Columbian_Mammoth_Science/index.html",
-      "/publications/2019_01_migrations/index.html"
-    ]
-  },
-  {
-    "listing": "/research/area1/index.html",
-    "items": [
-      "/publications/2023_07_preHispanic_Science/index.html",
-      "/publications/2022_06_ancientDNA/index.html",
-      "/publications/2022_05_ancientGenomes/index.html",
-      "/publications/2021_03_MexicanIndigenous_nature/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/area1/index.html",
-      "/research/area3/index.html",
-      "/research/area2/index.html"
-    ]
-  },
-  {
-    "listing": "/research/area3/index.html",
-    "items": [
-      "/publications/2023_07_preHispanic_Science/index.html",
-      "/publications/2022_06_ancientDNA/index.html",
-      "/publications/2022_05_ancientGenomes/index.html",
-      "/publications/2022_04_Epogenomic/index.html",
-      "/publications/2021_03_MexicanIndigenous_nature/index.html",
-      "/publications/2021_02_Philippine/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/carrusel/articulo3.html",
-      "/carrusel/articulo4.html",
-      "/carrusel/articulo5.html",
-      "/carrusel/articulo2.html",
-      "/carrusel/articulo1.html"
+      "/events/RSGMexico.html",
+      "/events/reprohack.html",
+      "/events/Rladies.html",
+      "/events/VieRnesBioinfo.html"
     ]
   },
   {
@@ -178,9 +178,12 @@
   {
     "listing": "/5_videos.html",
     "items": [
-      "/videos/2025_NuevoLinaje_en.html",
+      "/videos/2025_Note_ADN_es.html",
+      "/videos/2025_Note_NuevoLinaje_en.html",
+      "/videos/2025_Note_Elpais.html",
+      "/videos/2025_Note_About_FedeSanchez_en.html",
+      "/videos/2025_Note_Mammoth_en.html",
       "/videos/RSGMexico.html",
-      "/videos/Rladies.html",
       "/videos/VieRnesBioinfo.html"
     ]
   }

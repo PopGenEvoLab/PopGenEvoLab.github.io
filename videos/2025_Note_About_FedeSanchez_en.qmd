@@ -1,0 +1,21 @@
+---
+title: "Federico Sánchez Quinto en “Retrato Hablado”"
+format: html
+title-block-banner: true # Titulo en banner visual en la parte superior
+date: 2025-12-05
+image: ../people/FedericoSanchez/avatar.jpg
+categories: ["Entrevistas", "Español"]
+---
+
+::::: quarto-layout
+:::: quarto-layout-row
+[![Dr. Federico Sánchez-Quinto](../people/FedericoSanchez/avatar.jpg){fig-align="center"}](https://popgenevolab.github.io/people/FedericoSanchez/index.html)
+
+::: {.quarto-layout-cell .column width="60%"}
+El Financiero publicó una entrevista a **Federico Sánchez** en su sección *Retrato Hablado*, donde comparte su visión y experiencias más recientes.
+
+\
+👉 Descúbrela completa aquí: [El Financiero – Retrato Hablado](https://www.elfinanciero.com.mx/retrato-hablado/2025/12/05/federico-sanchez-quinto/)
+:::
+::::
+:::::

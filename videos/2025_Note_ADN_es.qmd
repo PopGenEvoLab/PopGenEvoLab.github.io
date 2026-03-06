@@ -1,0 +1,14 @@
+---
+title: "Análisis del ADN: una ventana hacia el pasado"
+format: html
+title-block-banner: true # Titulo en banner visual en la parte superior
+date: 2025-10-24
+image: cover/231025-COUTTOLENC-ADN-antiguo-1.png
+categories: ["Conferencias", "ADN antiguo", "Antropología", "Español"]
+---
+
+El **24 de octubre de 2025**, el investigador **Federico Sánchez Quinto**, adscrito al Laboratorio Internacional de Investigación sobre el Genoma Humano (LIIGH-UNAM), ofreció una conferencia en el Instituto de Antropología de la Universidad Veracruzana, dentro del *Seminario Interinstitucional Poblaciones Antiguas del Golfo*.
+
+En su exposición titulada *“Análisis del ADN: una ventana hacia el pasado”*, explicó cómo el estudio del **ADN antiguo** permite reconstruir perfiles genéticos y demográficos de individuos y poblaciones prehispánicas. Señaló que esta herramienta abre la posibilidad de comprender los procesos de poblamiento, las interacciones entre distintos grupos mesoamericanos y la diversidad genética que caracteriza a las poblaciones actuales.
+
+👉 Puedes consultar la nota completa aquí: [Universo UV – Análisis del ADN](https://www.uv.mx/prensa/general/analisis-del-adn-una-ventana-hacia-el-pasado/)

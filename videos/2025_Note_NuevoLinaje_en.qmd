@@ -1,0 +1,20 @@
+---
+title: "Descubrimiento de un nuevo linaje de mamut en México"
+format: html
+title-block-banner: true # Titulo en banner visual en la parte superior
+date: 2025-08-28
+image: cover/mammut_colombino.jpg
+categories: ["Mammuts", "mammoth", "megafauna", "Español"]
+---
+
+:::: video-card
+Especialistas de la UNAM realizaron el primer estudio genético de mamuts en México, descubriendo linajes mitocondriales únicos y publicando sus hallazgos en la revista [*Science*](https://www.science.org/doi/10.1126/science.adt9651).
+
+::: {style="text-align:center;"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H9VpCuroeXg?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+:::
+::::
+
+👉 Para más información visita: [UNAM Global – Especialistas de la UNAM descubren nuevo linaje de mamut](https://unamglobal.unam.mx/global_tv/especialistas-de-la-unam-descubren-nuevo-linaje-de-mamut/)

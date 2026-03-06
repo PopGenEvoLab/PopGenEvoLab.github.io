@@ -1,4 +1,0 @@
----
-title: "Rladies Morelia"
-format: html
----

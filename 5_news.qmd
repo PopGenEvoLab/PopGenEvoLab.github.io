@@ -1,6 +1,6 @@
 ---
 title: "News"
-title-block-banner: true # Titulo en banner visual en la parte superior
+title-block-banner: false # Titulo en banner visual en la parte superior
 format: html
 listing: 
   id: posts

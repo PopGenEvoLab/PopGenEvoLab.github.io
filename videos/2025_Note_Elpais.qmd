@@ -1,0 +1,12 @@
+---
+title: "El primer estudio de ADN de mamuts en Santa Lucía revela un linaje desconocido"
+format: html
+title-block-banner: true # Titulo en banner visual en la parte superior
+date: 2025-09-08
+image: cover/Elpais.png
+categories: ["Paleogenómica", "Mamuts", "México", "ADN antiguo", "Español"]
+---
+
+El artículo de *El País* del 8 de septiembre de 2025 informa que el primer estudio de ADN de mamuts descubiertos en Santa Lucía reveló la existencia de un linaje desconocido que habitó la cuenca de México. Este hallazgo, liderado por especialistas de la UNAM en colaboración con el INAH, marca un hito en la paleogenómica mexicana.
+
+👉 Puedes consultar la nota completa aquí: [El País nota](https://elpais.com/mexico/2025-09-08/el-primer-estudio-de-adn-de-mamuts-descubiertos-en-santa-lucia-revela-que-un-linaje-desconocido-habito-la-cuenca-de-mexico.html)
